@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  .Banner{
+    top: 0px;
+    left: 0px;
+    background: url(./img/1081835.png) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+
+    .Banner-Glass{
+
+      width: 50vw;
+      height: 100%;
+      opacity: 1;
+      backdrop-filter: blur(15px) brightness(80%);
+      -webkit-backdrop-filter: blur(15px) brightness(80%);
+      z-index: 1;
+    }
+    .Banner-Container{
+      top:22vh;
+      left:7vw;
+      position: absolute;
+      z-index: 2;
+    }
+
+    .Banner-Name {
+
+      text-align: left;
+      font: normal normal bold 66px/32px Montserrat;
+      letter-spacing: 1.32px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      padding-bottom: 15px;
+    }
+    .Banner-Sub-Name{
+      text-align: left;
+      font: normal normal bold 26px/32px Montserrat;
+      letter-spacing: 0.52px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+    .Banner-text {
+      text-align: left;
+      font: 16px/25px Montserrat;
+      font-weight: 500;
+      letter-spacing: 0.32px;
+      color: #FFFFFF;
+      opacity: 1;
+      width: 25vw;
+      padding-top: 6vh;
+    }
+
+
+    .Banner-Button{
+      background: transparent linear-gradient(122deg, rgba(165,220,215,0.60) 0%, rgba(15,66,120,0.60) 150%) 0% 0% no-repeat padding-box;
+      box-shadow: inset 0px 0px 20px #FFFFFF29;
+      border: 1px solid #FFFFFF80;
+      border-radius: 27px;
+      margin-top: 7vh;
+      width: 17vw;
+      height: 10vh;
+      text-align: center;
+      font: normal normal 600 25px Montserrat;
+      letter-spacing: 0.25vw;
+      color: #FFFFFF;
+      opacity: 1;
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      text-transform: uppercase;
+      transition: all 0.5s ease-in-out;
+    }
+    .Banner-Button:hover{
+      backdrop-filter: blur(30px) brightness(1.8);
+      -webkit-backdrop-filter: blur(30px) brightness(1.8);
+      transform: scale(1.05);
+    }
+
+    .Banner-Blob{
+
+      position: absolute;
+      top: 7vh;
+      left: 2vw;
+      mix-blend-mode: screen;
+      mask-image: url("./img/Path1.svg");
+      backdrop-filter: blur(8px) brightness(1.1);
+      overflow: hidden;
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 3;
+      opacity: 1;
+      pointer-events: none;
+    }
+
+    .Banner-Blob2{
+
+      position: absolute;
+      top: 52vh;
+      left: 21vw;
+      mix-blend-mode: screen;
+      mask-image: url("./img/Path2.svg");
+      backdrop-filter: blur(8px) brightness(1.1);
+      overflow: hidden;
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 3;
+      opacity: 1;
+      pointer-events: none;
+    }
+
+
+  }
+  .Container{
+    display: block;
+    left: 0;
+    top: 80vh;
+    width: 100vw;
+    height: 100vh;
+    background: transparent linear-gradient(161deg, #8DC8C8 100%, #CBDFE9 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    align-content: center;
+    padding-top: 13vh;
+
+    
+    .Container-Headlines{
+      display: block;
+      text-align: center;
+      position: relative;
+
+    }
+    .Container-Headlines-Name{
+      display: block;
+      position: relative;
+      font: normal 700 30px/25px Montserrat;
+      letter-spacing: 4.5px;
+      color: #000000;
+      text-transform: uppercase;
+      opacity: 1;
+      z-index: 2;
+    }
+    .Container-UnderText{
+      display: block;
+      position: relative;
+      border: 1.2px solid #000000;
+      background-color: black;
+      opacity: 1;
+      width: 7%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 14px;
+      z-index: 2;
+
+    }
+    .Container-Blob3{
+      position: relative;
+      top: -100px;
+      mix-blend-mode: screen;
+      mask-image: url("./img/Path3.svg");
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      z-index: 1;
+      opacity: 1;
+      pointer-events: none;
+
+    }
+
+  }
+}
