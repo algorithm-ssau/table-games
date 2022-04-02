@@ -21,6 +21,7 @@ import LibrarySharp from "./img/library-sharp.svg";
 import Arrow from "./img/Icon ionic-ios-arrow-back.svg";
 
 
+
 function Main() {
   return (
 
@@ -42,7 +43,6 @@ function Main() {
 
             <div className="Banner-Glass"></div>
       </div>
-
          <div className="Container">
              <div className="Container-Headlines">
                  <div className="Container-Headlines-Name">Новинки</div>
