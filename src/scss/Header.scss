@@ -1,23 +1,229 @@
 @import "./BreakPoints";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-
-body{
-  .Full{
-    width: 16vw;
-    height: 80vh;
-    margin-left: -80%;
-    z-index: 50;
-    position: absolute;
-    cursor: default;
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+.Search-Icon{
+  @include media(">=LGdesktop", ">desktop"){
+    transform: scale(0.9);
+    margin-top: -3.6vh;
   }
-  .dropdown-basket-container{
+  @include media('<LGdesktop','>=desktop'){
+    transform: scale(0.8);
+    margin-top: -3.6vh;
+
+  }
+  @include media('<desktop', '>=tablet'){
+    transform: scale(0.6);
+    margin-top: -4vh;
+  }
+  position: absolute;
+  margin-top: -3.5vh;;
+  margin-left: 60.5vw;
+  z-index: 10;
+}
+body{
+  .dropdown-profile{
+
+    transition: all 200ms ease-in-out;
+    background: #333333a5 0% 0% no-repeat padding-box;
+    display: inline-block;
+    box-shadow: inset 0px 0px 35px #c8c8c810, 0px 3px 30px #0000004D;
+    height: 14.5vw;
+    width: 16vw;
+    border: 1px solid #666666a8;
+    border-radius: 15px;
+    z-index: 10;
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 100px;
+    backdrop-filter: blur(37px);
+    -webkit-backdrop-filter: blur(37px);
+  }
+  .profile-input::placeholder{
+    color:#FFFFFF;
+    font-size: 16px;
+  }
+  .profile-input{
+    @include media(">=LGdesktop", ">desktop"){
+      font-size: 12px;
+    }
+    @include media('<LGdesktop','>=desktop'){
+      font-size: 10px;
+      margin-top: -4.9vh;
+
+    }
+    @include media('<desktop', '>=tablet'){
+      font-size: 8px;
+    }
+    padding-left: 5%;
+    position: relative;
+    font: normal normal normal 16px Montserrat;
+    letter-spacing: 0px;
+    margin-top: 10%;
+    color: #FFFFFF;
+    opacity: 1;
     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 12vw;
+    height: 4vh;
+    background-color: #BBBBBB25;
+    border: 1px solid #FFFFFF66;
+    border-radius: 20px;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    outline: none;
+    opacity: 1;
+  }
+  .RegisterButton{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font: normal normal normal 14px Montserrat ;
+    font-weight: 200;
+    color:#F6F6F6;
+    text-align: center;
+    margin-top: 5%;
+    text-decoration: #FFFFFF underline;
+  }
+  .profile-container-back-button::before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .profile-container-back-button{
+    margin-top: 2%;
+    width:80%;
+    height: 20%;
+    background: transparent linear-gradient(122deg, rgba(165,220,215,0.60) 0%, rgba(15,66,120,0.60) 150%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 0px 20px #FFFFFF29;
+    border: 1px solid #FFFFFF80;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 10%;
+    display: block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .Profile{
+    @include media(">=LGdesktop", ">desktop") {
+      transform: scale(0.9);
+    }
+    @include media('<LGdesktop', '>=desktop') {
+      transform: scale(0.6);
+
+    }
+    @include media('<desktop', '>=tablet') {
+      transform: scale(0.4);
+      margin-left: 30px
+    }
+    margin-left: 1%;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    opacity: 1;
+    cursor: pointer;
+    align-content: center;
+  }
+
+.dropdown-profile-cot{
+  display: inline-block;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+}
+.dropdown-profile-container{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+
+  .dropdown-basket-dash-line{
+    width: 100%;
+    height: 3px;
+    background-image: linear-gradient(to right, #ccc 0%, #ccc 50%, transparent 50%);
+    background-size: 30px 3px;
+    background-repeat: repeat-x;
+    opacity: 1;
+    margin-top: 4vh;
+
+
+
+  }
+  #Price{
+  float: right;
+  }
+  #BasketDrop-Arrow-back{
+    @include media(">=LGdesktop", ">desktop") {
+      transform: scale(0.5);
+    }
+
+    @include media('<desktop', '>=tablet') {
+    }
+
+    position: relative;
+    display: inline;
+    transform: scale(-0.4);
+    vertical-align: middle;
+    margin-left: 4%;
+
+
+  }
+  .dropdown-basket-dash-line-text-cont:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    justify-items: center;
+  }
+  .dropdown-basket-dash-line-text-cont{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    justify-items: center;
+  }
+  .dropdown-basket-dash-line-under-text{
+    justify-items: center;
+    display: inline-block;
+    width: 20%;
+    font: normal normal 600 24px Montserrat;
+    letter-spacing: 0.35px;
+    color: #FFFFFF;
+    opacity: 1;
+    vertical-align: middle;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    vertical-align: middle;
+  }
+  .dropdown-basket-cot{
+    display: inline-block;
+    flex-direction: column;
     height: 100%;
     width: 100%;
+    z-index: 5;
+  }
+  .dropdown-basket-container{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
 
   .dropdown-basket-container-item{
-    margin-bottom: 15%;
+    margin-bottom: 9%;
     width: 100%;
   }
 
@@ -31,25 +237,28 @@ body{
     display:inline-block;
     position: relative;
     margin-right: 5%;
-    margin-left: -5%;
-    margin-top: -4%;
+    margin-left: 0;
+    margin-top: -0%;
     float: left;
   }
     .dropdown-basket-name{
-      margin-top: -1.7%;
+
+      margin-top: 3%;
       text-align: left;
-      font: normal normal  14px Montserrat;
+      font: normal normal  18px Montserrat;
       font-weight: 600;
       letter-spacing: 0px;
       color: #FFFFFF;
       text-transform: uppercase;
       opacity: 1;
+      display: inline-block;
     }
     .dropdown-basket-price{
+
       text-align: left;
-      font: normal normal normal 12px Montserrat;
+      font: normal normal 16px Montserrat;
       letter-spacing: 0px;
-      margin-top: 3px;
+      margin-top: 5px;
       color: #FFFFFF;
       opacity: 1;
     }
@@ -70,16 +279,14 @@ body{
       margin-right: 10%;
       display: inline-block;
       float: right;
-      margin-top: -9%;
+      margin-top: -3.5vh;
       width: 20%;
-      height: 8%;
+      height: 2.8vh;
       background: #80808020 0% 0% no-repeat padding-box;
       box-shadow: inset 0px 0px 60px #FFFFFF4D;
       border: 0.5px solid #B4B4B466;
       border-radius: 20px;
       opacity: 1;
-      backdrop-filter: blur(40px);
-      -webkit-backdrop-filter: blur(40px);
       .dropdown-basket-counter-symbol{
         display: inline-block;
 
@@ -88,7 +295,7 @@ body{
         text-align: center;
         font: normal normal 18px Montserrat;
         font-weight: 600;
-        margin-left: 15%;
+        margin-left: 17%;
         background: none;
         letter-spacing: 0px;
         color: #FFFFFF;
@@ -390,7 +597,7 @@ body{
         height: 2.7vh;
         background-color: #5a5a5aa5;
         border: 1px solid #FFFFFF66;
-        border-radius: 10px;
+        border-radius: 20px;
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(16px);
         margin-top: -4.3vh;
@@ -400,7 +607,6 @@ body{
       }
 
     }
-
 
 
     .Category {
@@ -487,6 +693,7 @@ body{
       cursor: pointer;
       align-content: center;
     }
+
       .BasketVoidDrop{
         @include media(">=LGdesktop", ">desktop"){
           margin-top: 7.8vh;
@@ -499,12 +706,11 @@ body{
           margin-top: 22vh;
         }
 
-        backdrop-filter: blur(37px);
+
         background: #333333a5 0% 0% no-repeat padding-box;
         box-shadow: inset 0px 0px 35px #c8c8c810, 0px 3px 30px #0000004D;
         border: 1px solid #666666a8;
         border-radius: 15px;
-        z-index: 10;
         position: absolute;
 
         left: 50%;
@@ -524,6 +730,8 @@ body{
         overflow: hidden;
         height: 40vh;
         width: 38vh;
+        backdrop-filter: blur(37px);
+        -webkit-backdrop-filter: blur(37px);
 
       }
 

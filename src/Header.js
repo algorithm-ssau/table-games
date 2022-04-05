@@ -11,7 +11,16 @@ import Search from './img/Icon ionic-ios-search.svg'
 import {Link} from 'react-router-dom';
 import Arrow from "./img/Icon ionic-ios-arrow-back.svg";
 import {CSSTransition} from 'react-transition-group';
-
+/*
+$$\   $$\                           $$\
+$$ |  $$ |                          $$ |
+$$ |  $$ | $$$$$$\   $$$$$$\   $$$$$$$ | $$$$$$\   $$$$$$\
+$$$$$$$$ |$$  __$$\  \____$$\ $$  __$$ |$$  __$$\ $$  __$$\
+$$  __$$ |$$$$$$$$ | $$$$$$$ |$$ /  $$ |$$$$$$$$ |$$ |  \__|
+$$ |  $$ |$$   ____|$$  __$$ |$$ |  $$ |$$   ____|$$ |
+$$ |  $$ |\$$$$$$$\ \$$$$$$$ |\$$$$$$$ |\$$$$$$$\ $$ |
+\__|  \__| \_______| \_______| \_______| \_______|\__|
+*/
 
 
 var flagBasket = new Boolean(false);
@@ -41,7 +50,11 @@ function Header(){
                 <DropdownBasket/>
             </NavBasket>
 
-            <img id="Profile" src={Profile}/>
+            <NavProf>
+                <DropdownProfile/>
+            </NavProf>
+
+
 
         </div>
 
@@ -87,7 +100,9 @@ $$ | \$$ | $$$$$$  |      \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$
 
    return(
         <div>
+            <img src={Search} className="Search-Icon"/>
             <div className="search-cont" >
+
                 <CSSTransition in={open}
                                timeout={200}
                                classNames="DropAnim"
@@ -134,20 +149,34 @@ function DropdownMenuSearch(){
 var DropCSS = "fade-out dropdown";
 var DropCSS_Search = "fade-out dropdown-search";
 var DropCSS_Basket = "fade-out BasketVoidDrop";
+
 var DropCSS_Profile = "fade-out dropdown-profile"
 
 
 var Arr = "DownArrow";
 var flagClose = false;
+var flagClose2 = false
 function NavCat(props){
-        const[open, setOpen] = useState(false);
+/*
+    $$\   $$\  $$$$$$\         $$$$$$\  $$\   $$\  $$$$$$\  $$\   $$\  $$$$$$\  $$$$$$$$\       $$\   $$\  $$$$$$\  $$\
+    $$$\  $$ |$$  __$$\       $$  __$$\ $$ |  $$ |$$  __$$\ $$$\  $$ |$$  __$$\ $$  _____|      $$ |  $$ |$$  __$$\ $$ |
+    $$$$\ $$ |$$ /  $$ |      $$ /  \__|$$ |  $$ |$$ /  $$ |$$$$\ $$ |$$ /  \__|$$ |            \$$\ $$  |\__/  $$ |$$ |
+    $$ $$\$$ |$$ |  $$ |      $$ |      $$$$$$$$ |$$$$$$$$ |$$ $$\$$ |$$ |$$$$\ $$$$$\           \$$$$  /  $$$$$$  |$$ |
+    $$ \$$$$ |$$ |  $$ |      $$ |      $$  __$$ |$$  __$$ |$$ \$$$$ |$$ |\_$$ |$$  __|          $$  $$<  $$  ____/ \__|
+    $$ |\$$$ |$$ |  $$ |      $$ |  $$\ $$ |  $$ |$$ |  $$ |$$ |\$$$ |$$ |  $$ |$$ |            $$  /\$$\ $$ |
+    $$ | \$$ | $$$$$$  |      \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$$$$$\       $$ /  $$ |$$$$$$$$\ $$\
+    \__|  \__| \______/        \______/ \__|  \__|\__|  \__|\__|  \__| \______/ \________|      \__|  \__|\________|\__|
+
+ */
+
+    const[open, setOpen] = useState(false);
     function Hide(){
 
 
         flagClose = false;
         Arr = "DownArrow";
         DropCSS = "fade-out dropdown";
-        setOpen(!flagClose)
+        setOpen(flagClose)
 
     }
     function Open(){
@@ -156,15 +185,15 @@ function NavCat(props){
             DropCSS = "fade-out dropdown";
 
             Arr = "DownArrow";
-            setOpen(flagClose);
+            setOpen(!flagClose);
             flagClose = false;
         }
         else{
-        DropCSS = "fade-in dropdown";
+            DropCSS = "fade-in dropdown";
 
-        Arr = "UpArrow";
+            Arr = "UpArrow";
 
-            setOpen(flagClose);
+            setOpen(!flagClose);
             flagClose = true;
         }
     }
@@ -172,12 +201,12 @@ function NavCat(props){
     return(
         <div className="Category" >
             <div className="FakeHeader">
-                <div className="Full" onMouseOut={Hide}></div>
-            <CSSTransition in={!open}
-                           timeout={200}
-                           classNames="DropAnim"
-            >{props.children}</CSSTransition></div>
-    <div><div onClick={Open}>
+
+                <CSSTransition in={!open}
+                               timeout={200}
+                               classNames="DropAnim"
+                ><div onPointerLeave={Hide} className={DropCSS}>{props.children}</div></CSSTransition></div>
+            <div><div onClick={Open}>
 
                 Все категории
                 <img className={Arr} src={DownArrow}/>
@@ -186,7 +215,7 @@ function NavCat(props){
 
 
         </div>
-);
+    );
 };
 
 function DropdownItem(props){
@@ -200,7 +229,7 @@ function DropdownMenu(){
 
     return(
 
-        <div className={DropCSS}>
+        <div>
             <DropdownItem>
                 #Хиты
             </DropdownItem>
@@ -222,26 +251,62 @@ function DropdownMenu(){
 }
 
 function NavBasket(props){
+
+   /* $$\   $$\  $$$$$$\         $$$$$$\  $$\   $$\  $$$$$$\  $$\   $$\  $$$$$$\  $$$$$$$$\       $$\   $$\  $$$$$$\  $$\ $$\
+    $$$\  $$ |$$  __$$\       $$  __$$\ $$ |  $$ |$$  __$$\ $$$\  $$ |$$  __$$\ $$  _____|      $$ |  $$ |$$ ___$$\ $$ |$$ |
+    $$$$\ $$ |$$ /  $$ |      $$ /  \__|$$ |  $$ |$$ /  $$ |$$$$\ $$ |$$ /  \__|$$ |            \$$\ $$  |\_/   $$ |$$ |$$ |
+    $$ $$\$$ |$$ |  $$ |      $$ |      $$$$$$$$ |$$$$$$$$ |$$ $$\$$ |$$ |$$$$\ $$$$$\           \$$$$  /   $$$$$ / $$ |$$ |
+    $$ \$$$$ |$$ |  $$ |      $$ |      $$  __$$ |$$  __$$ |$$ \$$$$ |$$ |\_$$ |$$  __|          $$  $$<    \___$$\ \__|\__|
+    $$ |\$$$ |$$ |  $$ |      $$ |  $$\ $$ |  $$ |$$ |  $$ |$$ |\$$$ |$$ |  $$ |$$ |            $$  /\$$\ $$\   $$ |
+    $$ | \$$ | $$$$$$  |      \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$$$$$\       $$ /  $$ |\$$$$$$  |$$\ $$\
+    \__|  \__| \______/        \______/ \__|  \__|\__|  \__|\__|  \__| \______/ \________|      \__|  \__| \______/ \__|\__|
+*/
+
+
     const [open, setOpen] = useState(false);
 
-    if(!open){
+    function Hide(){
+
+
+        flagClose = false;
+
         DropCSS_Basket = "fade-out BasketVoidDrop";
-    }
-    else{
-        DropCSS_Basket = "fade-in BasketVoidDrop";
+        setOpen(flagClose)
 
     }
+    function Open(){
+
+        if(flagClose){
+
+            DropCSS_Basket = "fade-out BasketVoidDrop";
+
+
+            setOpen(!flagClose);
+            flagClose = false;
+        }
+        else{
+
+            DropCSS_Basket = "fade-in BasketVoidDrop";
+
+
+            setOpen(!flagClose);
+            flagClose = true;
+        }
+    }
+
  return(
      <div  className="Basket">
 
             <div>
-                <div className="FakeHeader2"><CSSTransition in={!open}
+
+                <div className="FakeHeader2">
+                    <CSSTransition in={!open}
                                timeout={200}
                                classNames="DropAnim"
                                onEntering={() => setOpen(open)}
                                onExited={() => setOpen(open)}
-                >{props.children}</CSSTransition></div>
-                <img onClick={() => setOpen(!open)}  src={Basket}/>
+                ><div onPointerLeave={Hide}   className={DropCSS_Basket}>{props.children}</div></CSSTransition></div>
+                <img onClick={Open}  src={Basket}/>
 
 
             </div>
@@ -252,7 +317,7 @@ function NavBasket(props){
 
 function DropdownBasketVoid() {
     return (
-        <div   className={DropCSS_Basket}>
+        <div>
             <div className="Oooops-Text">#Ooops</div>
             <div className="BasketVoidDrop-Void-Text">Кажется ваша корзина пуста</div>
             <div className="BasketVoidDrop-sub-text">Добавьте хотя бы один товар, чтобы сделать заказ</div>
@@ -262,17 +327,27 @@ function DropdownBasketVoid() {
                 <img id="BasketVoidDrop-Arrow-back" src={Arrow}></img>
                 <div className="BasketVoidDrop-back-text">Вернуться назад</div>
             </div>
-
-
         </div>
+
+
     );
 }
 function DropdownBasket(){
     return(
-        <div className={DropCSS_Basket}>
+        <div className="dropdown-basket-cot">
             <div className="dropdown-basket-container">
                 <DropdownBasketItem/>
                 <DropdownBasketItem/>
+
+                <div className="dropdown-basket-dash-line"></div>
+                <div className="dropdown-basket-dash-line-text-cont">
+                    <div className="dropdown-basket-dash-line-under-text">Итого</div><div id="Price" className="dropdown-basket-dash-line-under-text">24999р</div>
+                </div>
+                <div className="BasketVoidDrop-Container-back-button">
+
+                    <div className="BasketVoidDrop-back-text">Оформить заказ</div>
+                    <img id="BasketDrop-Arrow-back" src={Arrow}></img>
+                </div>
             </div>
 
         </div>
@@ -293,6 +368,65 @@ function DropdownBasketItem(){
 
     );
 }
+
+
+function NavProf(props){
+
+    const[open, setOpen] = useState(false);
+    function Hide(){
+        flagClose = false;
+        DropCSS_Profile = "fade-out dropdown-profile";
+        setOpen(flagClose)
+
+    }
+    function Open(){
+
+        if(flagClose){
+            DropCSS_Profile = "fade-out dropdown-profile";
+            setOpen(!flagClose);
+            flagClose = false;
+        }
+        else{
+            DropCSS_Profile = "fade-in dropdown-profile";
+            setOpen(!flagClose);
+            flagClose = true;
+        }
+    }
+
+    return(
+        <div className="Profile" >
+            <div className="FakeHeader">
+
+                <CSSTransition in={!open}
+                               timeout={200}
+                               classNames="DropAnim"
+                ><div onPointerLeave={Hide} className={DropCSS_Profile}>{props.children}</div></CSSTransition></div>
+            <img onClick={Open} src={Profile}/>
+
+
+
+        </div>
+    );
+};
+function DropdownProfile(){
+    return(
+        <div className="dropdown-profile-cot">
+            <div className="dropdown-profile-container">
+                <input type="text" id="login" className="profile-input" placeholder="E-mail"/>
+                <input type="password" id="login" className="profile-input" placeholder="Пароль"/>
+                <div className="profile-container-back-button">
+
+                    <div className="BasketVoidDrop-back-text">Войти</div>
+                    <img id="BasketDrop-Arrow-back" src={Arrow}></img>
+                </div>
+                <div className="RegisterButton">Нет аккаунта? Зарегистрироваться!</div>
+            </div>
+
+        </div>
+
+    );
+}
+
 
 
 export default Header
