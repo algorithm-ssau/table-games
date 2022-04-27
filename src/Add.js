@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 
 import './App.css';
 import Button from '@mui/material/Button';
@@ -54,7 +53,7 @@ const optionsTime = [
 
 
 
-function App() {
+function Add() {
   return (
     <div className="Padding">
       <Stack spacing={5} justifyContent="center"
@@ -100,30 +99,4 @@ function App() {
   );
 }
 
-export default App;
-=======
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Add from './Add';
-import Table from './Table';
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import reportWebVitals from './reportWebVitals';
-import Login from "./Login";
-
-ReactDOM.render(
-  <Router>
-      <Routes>
-        <Route exact path="/" element={<Login/>}></Route>
-        <Route exact path="/Add" element={<Add/>}></Route>
-        <Route exact path="/Table" element={<Table/>}></Route>
-    </Routes>
-  </Router>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
->>>>>>> Stashed changes
+export default Add;
