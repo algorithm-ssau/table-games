@@ -1,0 +1,3164 @@
+[
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 50,
+        "ItemId": 329263,
+        "CategoryIds": [
+            5408,
+            1356,
+            1366,
+            1632,
+            1362,
+            1629,
+            1469,
+            5001,
+            1507,
+            1509,
+            1626,
+            1965,
+            2048,
+            2128
+        ],
+        "CategoryPathsToRoot": [
+            [
+                5408
+            ],
+            [
+                1356,
+                1355
+            ],
+            [
+                1366,
+                1406,
+                1355
+            ],
+            [
+                1632,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1629,
+                1355
+            ],
+            [
+                1469
+            ],
+            [
+                5001
+            ],
+            [
+                1507,
+                1355
+            ],
+            [
+                1509,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                1965,
+                1355
+            ],
+            [
+                2048,
+                1355
+            ],
+            [
+                2128,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "23 февраля",
+            "Для компании",
+            "Другу",
+            "Стратегические игры",
+            "В подарок",
+            "В дорогу",
+            "Хиты",
+            "Сотрудничество",
+            "Карточная",
+            "По мотивам игры/книги/фильма",
+            "Ролевые игры",
+            "Магеллан",
+            "Дешевые настольные игры",
+            "Реиграбельные"
+        ],
+        "Params": {
+            "Возраст игроков": "от 14",
+            "Количество игроков": "от 4 до 6",
+            "Время игры": "от 40 до 60",
+            "hit": "true",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Magellan",
+        "Description": "Улучшенная версия хитовой психологической игры",
+        "TypePrefix": "Настольная игра",
+        "Model": "За бортом",
+        "Url": "https://www.mosigra.ru/za_bortom/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/560/798/DSC_0868_600x600-1024x1024.jpg",
+        "Name": "Настольная игра Magellan За бортом"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1990,
+        "Weight": 49,
+        "ItemId": 327351,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Подарочный набор с полем и фигурками",
+        "TypePrefix": "Настольная игра",
+        "Model": "Манчкин Делюкс ",
+        "Url": "https://www.mosigra.ru/munchkin_delux/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Обновление%20обложек/Munchkin_Deluxe00-1024x1024-1024x1024.jpg",
+        "Name": "Настольная игра Hobby World Манчкин Делюкс "
+    },
+    {
+        "OldPrice": 0,
+        "Price": 2490,
+        "Weight": 48,
+        "ItemId": 32408,
+        "CategoryIds": [
+            1366,
+            1632,
+            1362,
+            1509,
+            1626,
+            5399
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1366,
+                1406,
+                1355
+            ],
+            [
+                1632,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1509,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5399
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Другу",
+            "Стратегические игры",
+            "В подарок",
+            "По мотивам игры/книги/фильма",
+            "Ролевые игры",
+            "По мотивам компьютерных игр"
+        ],
+        "Params": {
+            "Возраст игроков": "от 16",
+            "Количество игроков": "от 2 до 6",
+            "Время игры": "от 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Новая версия Метро 2033",
+        "TypePrefix": "Настольная игра",
+        "Model": "Метро 2033 (новое издание)",
+        "Url": "https://www.mosigra.ru/metro_2033/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Обновление%20обложек/metro203300-1024x1024-1024x1024.jpg",
+        "Name": "Настольная игра Hobby World Метро 2033 (новое издание)"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 4990,
+        "Weight": 47,
+        "ItemId": 346750,
+        "CategoryIds": [
+            1408,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 2",
+            "Время игры": "от 120",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tМиру нужны герои\r\n",
+        "TypePrefix": "Ролевая игра",
+        "Model": "Dungeons &amp; Dragons. Книга игрока",
+        "Url": "https://www.mosigra.ru/dungeons-and-dragons-kniga-igroka-na-russkom/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Dungeons%20Dragons.%20Книга%20игрока/DnD_Kniga_Igroka-1024x1024.jpg",
+        "Name": "Ролевая игра Hobby World Dungeons &amp; Dragons. Книга игрока"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 3990,
+        "Weight": 46,
+        "ItemId": 325573,
+        "CategoryIds": [
+            1366,
+            1368,
+            1632,
+            1715,
+            1362,
+            1626,
+            1630,
+            1712,
+            2106,
+            2107,
+            2191,
+            2192,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1366,
+                1406,
+                1355
+            ],
+            [
+                1368,
+                1355
+            ],
+            [
+                1632,
+                1355
+            ],
+            [
+                1715,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                1630,
+                1355
+            ],
+            [
+                1712,
+                1355
+            ],
+            [
+                2106,
+                1355
+            ],
+            [
+                2107,
+                1355
+            ],
+            [
+                2191,
+                1355
+            ],
+            [
+                2192,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Другу",
+            "Дуэльные игры",
+            "Стратегические игры",
+            "Кооперативные игры",
+            "В подарок",
+            "Ролевые игры",
+            "Военные",
+            "Игры с фишками и кубиками",
+            "Для троих",
+            "Для четверых",
+            "От 10 лет",
+            "От 11 лет",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 2 до 4",
+            "Время игры": "от 60 до 90",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Звезда",
+        "Description": "Обалденная командная стратегия",
+        "TypePrefix": "Настольная игра",
+        "Model": "Андор",
+        "Url": "https://www.mosigra.ru/?route=product/product&product_id=325573",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/529/533/-2_600x600-1024x1024.jpg",
+        "Name": "Настольная игра Звезда Андор"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 45,
+        "ItemId": 1391,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626,
+            2191,
+            2192,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2191,
+                1355
+            ],
+            [
+                2192,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры",
+            "От 10 лет",
+            "От 11 лет",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Манчкин никогда не ошибается!",
+        "TypePrefix": "Дополнение",
+        "Model": "Манчкин 3. Клирические ошибки",
+        "Url": "https://www.mosigra.ru/Munchkin3/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%203/DSC_5292-1024x1024.jpg",
+        "Name": "Дополнение Hobby World Манчкин 3. Клирические ошибки"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 44,
+        "ItemId": 327792,
+        "CategoryIds": [
+            5320,
+            2140,
+            1362,
+            1626,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                5320,
+                1355
+            ],
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Дополнения",
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 2 до 6",
+            "Время игры": "от 30 до 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Особенное дополнение",
+        "TypePrefix": null,
+        "Model": "Манчкин 6,5. Бабайки из склепа",
+        "Url": "https://www.mosigra.ru/munchkin_babaiki_iz_sklepa/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%206,5/DSC_5324-1024x1024.jpg",
+        "Name": "Hobby World Манчкин 6,5. Бабайки из склепа"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 2990,
+        "Weight": 43,
+        "ItemId": 346731,
+        "CategoryIds": [
+            1408,
+            1626,
+            2176
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2176,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Pathfinder"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 2 до 5",
+            "Время игры": "от 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "",
+        "TypePrefix": "Ролевая игра",
+        "Model": "Pathfinder. Настольная ролевая игра. Вторая редакция. Стартовый набор",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-startovij-nabor/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20Настольная%20ролевая%20игра.%20Вторая%20редакция.%20Стартовый%20набор/Pathfinder2_BeginnerBox_00-1024x1024.jpg",
+        "Name": "Ролевая игра Hobby World Pathfinder. Настольная ролевая игра. Вторая редакция. Стартовый набор"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 4490,
+        "Weight": 42,
+        "ItemId": 346734,
+        "CategoryIds": [
+            1408,
+            1626,
+            2176
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2176,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Pathfinder"
+        ],
+        "Params": {
+            "Возраст игроков": "от 16",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tЭтот мир не для нас\r\n",
+        "TypePrefix": null,
+        "Model": "Pathfinder. Настольная ролевая игра. Основная книга правил. Вторая редакция",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-osnovnaja-kniga-pravil/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20Настольная%20ролевая%20игра.%20Основная%20книга%20правил.%20Вторая%20редакция/Pathfinder_2th-1024x1024.jpg",
+        "Name": "Hobby World Pathfinder. Настольная ролевая игра. Основная книга правил. Вторая редакция"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 2490,
+        "Weight": 41,
+        "ItemId": 346757,
+        "CategoryIds": [
+            1408,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 13",
+            "Количество игроков": "от 2 до 7",
+            "Время игры": "от 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tГалактика в ваших руках!\r\n",
+        "TypePrefix": null,
+        "Model": "Starfinder. Настольная ролевая игра. Стартовый набор",
+        "Url": "https://www.mosigra.ru/starfinder-nastolnaja-rolevaja-igra-startovij-nabor/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Starfinder%20НРИ.%20Стартовый%20набор/Starfinder_BB_00-1024x1024.jpg",
+        "Name": "Hobby World Starfinder. Настольная ролевая игра. Стартовый набор"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 2990,
+        "Weight": 40,
+        "ItemId": 158,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 2 до 4",
+            "Время игры": "от 30 до 200",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Сложная версия «Манчкина» с другими правилами",
+        "TypePrefix": "Настольная игра",
+        "Model": "Манчкин Квест",
+        "Url": "https://www.mosigra.ru/munchkin_quest/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Обновление%20обложек/Munchkin_Quest400-1024x1024-1024x1024.jpg",
+        "Name": "Настольная игра Hobby World Манчкин Квест"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 550,
+        "Weight": 39,
+        "ItemId": 344830,
+        "CategoryIds": [
+            5339,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                5339,
+                5337
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Книги",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Астрайт",
+        "Description": "",
+        "TypePrefix": "Книга",
+        "Model": "Dungeons &amp; Dragons. Герои и их снаряжение",
+        "Url": "https://www.mosigra.ru/dungeons-and-dragons-geroi-i-ih-snarjazhenie/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/dnd_geroi-1024x1024.jpg",
+        "Name": "Книга Астрайт Dungeons &amp; Dragons. Герои и их снаряжение"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 38,
+        "ItemId": 13216,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Так, браток, садись на тигра — и поскакали!",
+        "TypePrefix": null,
+        "Model": "Манчкин 4. Тяга к коняге",
+        "Url": "https://www.mosigra.ru/need_for_speed/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%204/DSC_5300-1024x1024.jpg",
+        "Name": "Hobby World Манчкин 4. Тяга к коняге"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 2990,
+        "Weight": 37,
+        "ItemId": 344185,
+        "CategoryIds": [
+            1356,
+            1408,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1356,
+                1355
+            ],
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Для компании",
+            "Новинки",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 18",
+            "Количество игроков": "от 2 до 7",
+            "Время игры": "от 120",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tТехнологии будущего\r\n",
+        "TypePrefix": "Ролевая игра",
+        "Model": "Cyberpunk Red. Стартовый набор",
+        "Url": "https://www.mosigra.ru/cyberpunk-red-startovij-nabor/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/%20Cyberpunk%20Red.%20Стартовый%20набор/CyberpunkRED_01-1024x1024.jpg",
+        "Name": "Ролевая игра Hobby World Cyberpunk Red. Стартовый набор"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1490,
+        "Weight": 36,
+        "ItemId": 343865,
+        "CategoryIds": [
+            1408,
+            1626,
+            1509,
+            5399
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                1509,
+                1355
+            ],
+            [
+                5399
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "По мотивам игры/книги/фильма",
+            "По мотивам компьютерных игр"
+        ],
+        "Params": {
+            "Возраст игроков": "от 18",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tЛюди любят выдумывать страшилищ и страхи\r\n",
+        "TypePrefix": "Дополнение",
+        "Model": "Ведьмак. Настольная ролевая игра: Правители и земли",
+        "Url": "https://www.mosigra.ru/vedmak-nri-praviteli-i-zemli/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Ведьмак.%20НРИ%20Правители%20и%20земли/Vedmak_Praviteli_i_Zemli-1024x1024.jpg",
+        "Name": "Дополнение Hobby World Ведьмак. Настольная ролевая игра: Правители и земли"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 4990,
+        "Weight": 35,
+        "ItemId": 342264,
+        "CategoryIds": [
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tПостройте свой мир\r\n",
+        "TypePrefix": "Ролевая игра",
+        "Model": "Dungeons &amp; Dragons. Руководство мастера подземелий",
+        "Url": "https://www.mosigra.ru/dungeons-and-dragons-rukovodstvo-mastera-podzemelij/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Dungeons%20Dragons.%20Руководство%20мастера%20подземелий/DnD_Rukovodstvo_Mastera_01-1024x1024.jpg",
+        "Name": "Ролевая игра Hobby World Dungeons &amp; Dragons. Руководство мастера подземелий"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 890,
+        "Weight": 34,
+        "ItemId": 346396,
+        "CategoryIds": [
+            1356,
+            1408,
+            5320,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1356,
+                1355
+            ],
+            [
+                1408
+            ],
+            [
+                5320,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Для компании",
+            "Новинки",
+            "Дополнения",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 18",
+            "Количество игроков": "от 2 до 4",
+            "Время игры": "от 45 до 90",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Фабрика игр",
+        "Description": "Описание в пути",
+        "TypePrefix": null,
+        "Model": "Вампиры: Маскарад. Наследие: Набор для перезагрузки",
+        "Url": "https://www.mosigra.ru/vampiri-maskarad-nasledie-nabor-dlja-perezagruzki/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/recharged_pack_00-1024x1024-1024x1024.jpg",
+        "Name": "Фабрика игр Вампиры: Маскарад. Наследие: Набор для перезагрузки"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 33,
+        "ItemId": 34284,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626,
+            2191,
+            2192,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2191,
+                1355
+            ],
+            [
+                2192,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры",
+            "От 10 лет",
+            "От 11 лет",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Миксуй с двух рук, холостяк",
+        "TypePrefix": null,
+        "Model": "Манчкин 7. Двуручный Чит",
+        "Url": "https://www.mosigra.ru/man4kin_7/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%207/DSC_5334-1024x1024.jpg",
+        "Name": "Hobby World Манчкин 7. Двуручный Чит"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 32,
+        "ItemId": 32945,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626,
+            2191,
+            2192,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2191,
+                1355
+            ],
+            [
+                2192,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры",
+            "От 10 лет",
+            "От 11 лет",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Добавим внезапности?",
+        "TypePrefix": "Дополнение",
+        "Model": "Манчкин 6. Безбашенные подземелья",
+        "Url": "https://www.mosigra.ru/manchkin_bb_podzemelya/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%206/DSC_5316-1024x1024.jpg",
+        "Name": "Дополнение Hobby World Манчкин 6. Безбашенные подземелья"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1290,
+        "Weight": 31,
+        "ItemId": 327367,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Напустили пара даже в Манчкин!",
+        "TypePrefix": null,
+        "Model": "Манчкин Стимпанк",
+        "Url": "https://www.mosigra.ru/munchkin_steampunk/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/539/767/2_600x600-1024x1024.jpg",
+        "Name": "Hobby World Манчкин Стимпанк"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1290,
+        "Weight": 30,
+        "ItemId": 327885,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Махабхарату завершит Рагнарёк",
+        "TypePrefix": "Настольная игра",
+        "Model": "Манчкин Легендарный",
+        "Url": "https://www.mosigra.ru/manchkin_legendarniy/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/Munchkin_Legendarniy00-1024x1024-1024x1024.jpg",
+        "Name": "Настольная игра Hobby World Манчкин Легендарный"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 290,
+        "Weight": 29,
+        "ItemId": 5750,
+        "CategoryIds": [
+            1362,
+            1629,
+            1507,
+            1626,
+            1965,
+            2048,
+            2193,
+            5001
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1362,
+                1355
+            ],
+            [
+                1629,
+                1355
+            ],
+            [
+                1507,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                1965,
+                1355
+            ],
+            [
+                2048,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ],
+            [
+                5001
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "В подарок",
+            "В дорогу",
+            "Карточная",
+            "Ролевые игры",
+            "Магеллан",
+            "Дешевые настольные игры",
+            "От 12 лет",
+            "Сотрудничество"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 4 до 8",
+            "Время игры": "от 40 до 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Magellan",
+        "Description": "Два чумовых дополнения в одной пачке",
+        "TypePrefix": null,
+        "Model": "За бортом. Дополнения (старое издание)",
+        "Url": "https://www.mosigra.ru/Lifeboat_addons/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/532/015/2_600x600-1024x1024.jpg",
+        "Name": "Magellan За бортом. Дополнения (старое издание)"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1290,
+        "Weight": 28,
+        "ItemId": 14537,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Новая серия про Ктулху: не будить!",
+        "TypePrefix": null,
+        "Model": "Манчкин Ктулху",
+        "Url": "https://www.mosigra.ru/man4kin_ktulhu/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Обновление%20обложек/Munchkin_Ktulhu00-1024x1024-1024x1024.jpg",
+        "Name": "Hobby World Манчкин Ктулху"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 27,
+        "ItemId": 32048,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626,
+            2191,
+            2192,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2191,
+                1355
+            ],
+            [
+                2192,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры",
+            "От 10 лет",
+            "От 11 лет",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Пятое дополнение к базовой версии",
+        "TypePrefix": "Дополнение",
+        "Model": "Манчкин 5. Следопуты",
+        "Url": "https://www.mosigra.ru/munchkin_sledoputy/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%205/DSC_5308-1024x1024.jpg",
+        "Name": "Дополнение Hobby World Манчкин 5. Следопуты"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1290,
+        "Weight": 26,
+        "ItemId": 33748,
+        "CategoryIds": [
+            2140,
+            1362,
+            1626,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Мозги! Еда! Ааргх!",
+        "TypePrefix": "Настольная игра",
+        "Model": "Манчкин Зомби",
+        "Url": "https://www.mosigra.ru/man4kin_zombi/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/munchkin-zombie-box-1024x1024.jpg",
+        "Name": "Настольная игра Hobby World Манчкин Зомби"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 3000,
+        "Weight": 25,
+        "ItemId": 326625,
+        "CategoryIds": [
+            1366,
+            1368,
+            1632,
+            1715,
+            1362,
+            2191,
+            2192,
+            2193,
+            1626,
+            1630,
+            2106,
+            2107
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1366,
+                1406,
+                1355
+            ],
+            [
+                1368,
+                1355
+            ],
+            [
+                1632,
+                1355
+            ],
+            [
+                1715,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                2191,
+                1355
+            ],
+            [
+                2192,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                1630,
+                1355
+            ],
+            [
+                2106,
+                1355
+            ],
+            [
+                2107,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Другу",
+            "Дуэльные игры",
+            "Стратегические игры",
+            "Кооперативные игры",
+            "В подарок",
+            "От 10 лет",
+            "От 11 лет",
+            "От 12 лет",
+            "Ролевые игры",
+            "Военные",
+            "Для троих",
+            "Для четверых"
+        ],
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 2 до 4",
+            "Время игры": "от 60 до 90",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Звезда",
+        "Description": "Вас ждут приключения в&nbspморе и&nbspво&nbspльдах",
+        "TypePrefix": "Дополнение",
+        "Model": "Андор. Поход на север",
+        "Url": "https://www.mosigra.ru/?route=product/product&product_id=326625",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/531/789/-2_600x600-1024x1024.jpg",
+        "Name": "Дополнение Звезда Андор. Поход на север"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 24,
+        "ItemId": 327884,
+        "CategoryIds": [
+            5320,
+            2140,
+            1362,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                5320,
+                1355
+            ],
+            [
+                2140,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Дополнения",
+            "Манчкин",
+            "В подарок",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Слышишь топот копыт?",
+        "TypePrefix": "Дополнение",
+        "Model": "Манчкин 8. В хвост и в Гриву",
+        "Url": "https://www.mosigra.ru/manchkin_8_v_hvost_i_v_grivu/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%208/DSC_5342-1024x1024.jpg",
+        "Name": "Дополнение Hobby World Манчкин 8. В хвост и в Гриву"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 3990,
+        "Weight": 23,
+        "ItemId": 327929,
+        "CategoryIds": [
+            1366,
+            1368,
+            1632,
+            1715,
+            1362,
+            2191,
+            2192,
+            2193,
+            1626,
+            1630,
+            2106,
+            2107
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1366,
+                1406,
+                1355
+            ],
+            [
+                1368,
+                1355
+            ],
+            [
+                1632,
+                1355
+            ],
+            [
+                1715,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                2191,
+                1355
+            ],
+            [
+                2192,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                1630,
+                1355
+            ],
+            [
+                2106,
+                1355
+            ],
+            [
+                2107,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Другу",
+            "Дуэльные игры",
+            "Стратегические игры",
+            "Кооперативные игры",
+            "В подарок",
+            "От 10 лет",
+            "От 11 лет",
+            "От 12 лет",
+            "Ролевые игры",
+            "Военные",
+            "Для троих",
+            "Для четверых"
+        ],
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 2 до 4",
+            "Время игры": "от 60 до 90",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Звезда",
+        "Description": "Стать последним героем Андора",
+        "TypePrefix": null,
+        "Model": "Андор. Последняя надежда",
+        "Url": "https://www.mosigra.ru/?route=product/product&product_id=327929",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/Andor_Box-1024x1024.jpg",
+        "Name": "Звезда Андор. Последняя надежда"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 590,
+        "Weight": 22,
+        "ItemId": 328157,
+        "CategoryIds": [
+            1362,
+            2101,
+            1626,
+            2106,
+            2107,
+            2176,
+            2193
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1362,
+                1355
+            ],
+            [
+                2101,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                2106,
+                1355
+            ],
+            [
+                2107,
+                1355
+            ],
+            [
+                2176,
+                1355
+            ],
+            [
+                2193,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "В подарок",
+            "Для одного",
+            "Ролевые игры",
+            "Для троих",
+            "Для четверых",
+            "Pathfinder",
+            "От 12 лет"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 1 до 4",
+            "Время игры": "90",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Фэнтезийный детектив",
+        "TypePrefix": "Дополнение",
+        "Model": "Pathfinder. Расправа на Крюковой горе",
+        "Url": "https://www.mosigra.ru/pathfinder_rasprava_na_krukovoi_gore/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.product.box/547/972/2-1024x1024.jpg",
+        "Name": "Дополнение Hobby World Pathfinder. Расправа на Крюковой горе"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 3990,
+        "Weight": 21,
+        "ItemId": 334888,
+        "CategoryIds": [
+            2279,
+            1626,
+            1362,
+            1509,
+            5399
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2279,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                1362,
+                1355
+            ],
+            [
+                1509,
+                1355
+            ],
+            [
+                5399
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Для взрослых",
+            "Ролевые игры",
+            "В подарок",
+            "По мотивам игры/книги/фильма",
+            "По мотивам компьютерных игр"
+        ],
+        "Params": {
+            "Возраст игроков": "от 18",
+            "Количество игроков": "от 3 до 8",
+            "Время игры": "от 120 до 500",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Студия 101",
+        "Description": "Культовая ролевая игра",
+        "TypePrefix": "Ролевая игра",
+        "Model": "Вампиры: Маскарад. Классические правила",
+        "Url": "https://www.mosigra.ru/vampiry_maskarad_klassicheskie_pravila/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.product.box/564/003/DSC_5940-1024x1024.jpg",
+        "Name": "Ролевая игра Студия 101 Вампиры: Маскарад. Классические правила"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 2490,
+        "Weight": 20,
+        "ItemId": 341745,
+        "CategoryIds": [
+            1626,
+            1509
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1626,
+                1355
+            ],
+            [
+                1509,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Ролевые игры",
+            "По мотивам игры/книги/фильма"
+        ],
+        "Params": {
+            "Возраст игроков": "от 18",
+            "Количество игроков": "от 2",
+            "Время игры": "от 120",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tСпасение мира - дело рук самого мира\r\n",
+        "TypePrefix": "Ролевая игра",
+        "Model": "Ведьмак. Настольная ролевая игра (Книга)",
+        "Url": "https://www.mosigra.ru/vedmak-nastolnaja-rolevaja-igra/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Ведьмак.%20Настольная%20ролевая%20игра%20(Книга)/Vedmak_01-1024x1024.jpg",
+        "Name": "Ролевая игра Hobby World Ведьмак. Настольная ролевая игра (Книга)"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 2490,
+        "Weight": 19,
+        "ItemId": 342008,
+        "CategoryIds": [
+            1509,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1509,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "По мотивам игры/книги/фильма",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 13",
+            "Количество игроков": "от 1 до 6",
+            "Время игры": "от 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tУжас из глубин\r\n",
+        "TypePrefix": "Ролевая игра",
+        "Model": "Зов Ктулху. Стартовый набор",
+        "Url": "https://www.mosigra.ru/zov-ktulhu-startovij-nabor/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Зов%20Ктулху%20НРИ/Zov_Ktulhu_02-1024x1024.jpg",
+        "Name": "Ролевая игра Hobby World Зов Ктулху. Стартовый набор"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 490,
+        "Weight": 18,
+        "ItemId": 342839,
+        "CategoryIds": [
+            1356,
+            1632,
+            5320,
+            1629,
+            5046,
+            1507,
+            1509,
+            1626,
+            1965,
+            2128,
+            5001
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1356,
+                1355
+            ],
+            [
+                1632,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ],
+            [
+                1629,
+                1355
+            ],
+            [
+                5046
+            ],
+            [
+                1507,
+                1355
+            ],
+            [
+                1509,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                1965,
+                1355
+            ],
+            [
+                2128,
+                1355
+            ],
+            [
+                5001
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Для компании",
+            "Стратегические игры",
+            "Дополнения",
+            "В дорогу",
+            "Психология",
+            "Карточная",
+            "По мотивам игры/книги/фильма",
+            "Ролевые игры",
+            "Магеллан",
+            "Реиграбельные",
+            "Сотрудничество"
+        ],
+        "Params": {
+            "Возраст игроков": "от 14",
+            "Количество игроков": "от 4 до 8",
+            "Время игры": "от 40 до 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Magellan",
+        "Description": "Три дополнения в лодке",
+        "TypePrefix": "Дополнение",
+        "Model": "За Бортом. Дополнение",
+        "Url": "https://www.mosigra.ru/za_bortom_dop/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/564/680/DSC_7072_600x600-1024x1024.jpg",
+        "Name": "Дополнение Magellan За Бортом. Дополнение"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1790,
+        "Weight": 17,
+        "ItemId": 343864,
+        "CategoryIds": [
+            1408,
+            1626,
+            1509
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                1509,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "По мотивам игры/книги/фильма"
+        ],
+        "Params": {
+            "Возраст игроков": "от 18",
+            "Количество игроков": "от 2 до 5",
+            "Время игры": "от 120",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tДневника у тебя тоже два?\r\n",
+        "TypePrefix": null,
+        "Model": "Ведьмак НРИ: Дневник охотника на чудовищ",
+        "Url": "https://www.mosigra.ru/vedmak-nri-dnevnik-ohotnika-na-chudovishh/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Ведьмак.%20Настольная%20ролевая%20игра:%20Дневник%20охотника%20на%20чудовищ/Vedmak_Dnevnik-1024x1024.jpg",
+        "Name": "Hobby World Ведьмак НРИ: Дневник охотника на чудовищ"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1490,
+        "Weight": 16,
+        "ItemId": 344163,
+        "CategoryIds": [
+            2101,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                2101,
+                1355
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Для одного",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 1 до 8",
+            "Время игры": "от 30",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "false",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Lavka Games",
+        "Description": "\r\n\tБумага все стерпит\r\n",
+        "TypePrefix": "Настольная игра",
+        "Model": "Бумажные подземелья",
+        "Url": "https://www.mosigra.ru/bumazhnie-podzemelja/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Lavka%20Games/Бумажное%20подземелье/Bumazhnye_Podzemelya00-1024x1024.jpg",
+        "Name": "Настольная игра Lavka Games Бумажные подземелья"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1490,
+        "Weight": 15,
+        "ItemId": 344882,
+        "CategoryIds": [
+            1356,
+            1408,
+            1626,
+            5320
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1356,
+                1355
+            ],
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Для компании",
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения"
+        ],
+        "Params": {
+            "Возраст игроков": "от 18",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tСпускаемся прямо в ад\r\n",
+        "TypePrefix": "Аксессуар",
+        "Model": "Dungeons &amp; Dragons: Врата Балдура: Нисхождение в Авернус: Ширма мастера подземелий",
+        "Url": "https://www.mosigra.ru/dungeons-and-dragons-vrata-baldura-nishozhdenie-v-avernus-shirma-mastera-podzemelij/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Ширма%20врата%20балдура/DnD_Nishojdenie_V_Avernus-1024x1024.jpg",
+        "Name": "Аксессуар Hobby World Dungeons &amp; Dragons: Врата Балдура: Нисхождение в Авернус: Ширма мастера подземелий"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 590,
+        "Weight": 14,
+        "ItemId": 346732,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320,
+            2176
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ],
+            [
+                2176,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения",
+            "Pathfinder"
+        ],
+        "Params": {
+            "Возраст игроков": "от 6",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tОтличное место, чтобы отдохнуть\r\n",
+        "TypePrefix": null,
+        "Model": "Pathfinder. НРИ. Вторая редакция. Игровое поле &quot;Неприятности в Отари&quot;",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-igrovoe-pole-neprijatnosti-v-otari/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20НРИ.%20Неприятности%20в%20Отари/Pathfinder_Pole_Nepriyatnosti_v_Otari-1024x1024.jpg",
+        "Name": "Hobby World Pathfinder. НРИ. Вторая редакция. Игровое поле &quot;Неприятности в Отари&quot;"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 490,
+        "Weight": 13,
+        "ItemId": 346733,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320,
+            2176
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ],
+            [
+                2176,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения",
+            "Pathfinder"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tВыглядишь уставшим\r\n",
+        "TypePrefix": "Аксессуар",
+        "Model": "Pathfinder. Настольная ролевая игра. Вторая редакция. Карты состояний",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-karti-sostojanij/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20Карты%20состояний/Pathfinder_Cards_00-1024x1024.jpg",
+        "Name": "Аксессуар Hobby World Pathfinder. Настольная ролевая игра. Вторая редакция. Карты состояний"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 12,
+        "ItemId": 346735,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320,
+            2176
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ],
+            [
+                2176,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения",
+            "Pathfinder"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 2 до 5",
+            "Время игры": "от 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tКаждый герой найдёт что-то себе по вкусу!\r\n",
+        "TypePrefix": "Дополнение",
+        "Model": "Pathfinder НРИ Вторая редакция: Приключение «Неприятности в Отари»",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-prikljuchenie-neprijatnosti-v-otari/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20НРИ.%20Вторая%20редакция:%20Приключение%20Неприятности%20в%20Отари/Pathfinder_Nepriyatnosti_V_Otari-1024x1024.jpg",
+        "Name": "Дополнение Hobby World Pathfinder НРИ Вторая редакция: Приключение «Неприятности в Отари»"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 11,
+        "ItemId": 346736,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320,
+            2202,
+            2176
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ],
+            [
+                2202,
+                1355
+            ],
+            [
+                2176,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения",
+            "Аксессуары",
+            "Pathfinder"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tЗанимаймя своими делами\r\n",
+        "TypePrefix": "Аксессуар",
+        "Model": "Pathfinder. Настольная ролевая игра. Вторая редакция. Ширма ведущего",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-shirma-vedushhego/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20Ширма%20ведущего/Pathfinder_2th_Shirma-1024x1024.jpg",
+        "Name": "Аксессуар Hobby World Pathfinder. Настольная ролевая игра. Вторая редакция. Ширма ведущего"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1990,
+        "Weight": 10,
+        "ItemId": 346737,
+        "CategoryIds": [
+            1408,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 14",
+            "Количество игроков": "от 2 до 5",
+            "Время игры": "от 60",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tТени над городом\r\n",
+        "TypePrefix": "Ролевая игра",
+        "Model": "Shadowrun: Шестой мир. Стартовый набор",
+        "Url": "https://www.mosigra.ru/shadowrun-shestoj-mir-nri-startovij-nabor/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Shadowrun:%20Шестой%20мир.%20Стартовый%20набор/shadowrun_box_3d_opt-1024x1024.jpg",
+        "Name": "Ролевая игра Hobby World Shadowrun: Шестой мир. Стартовый набор"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 2990,
+        "Weight": 9,
+        "ItemId": 346738,
+        "CategoryIds": [
+            1408,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "Возраст игроков": "от 18",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tГрани будущего\r\n",
+        "TypePrefix": null,
+        "Model": "Shadowrun: Шестой мир. Основная книга правил",
+        "Url": "https://www.mosigra.ru/shadowrun-shestoj-mir-osnovnaja-kniga-pravil/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Shadowrun:%20Шестой%20мир.%20Основная%20книга%20правил/Shadowrun_6th-1024x1024.jpg",
+        "Name": "Hobby World Shadowrun: Шестой мир. Основная книга правил"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 4990,
+        "Weight": 8,
+        "ItemId": 346751,
+        "CategoryIds": [
+            5339,
+            1408,
+            1626
+        ],
+        "CategoryPathsToRoot": [
+            [
+                5339,
+                5337
+            ],
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Книги",
+            "Новинки",
+            "Ролевые игры"
+        ],
+        "Params": {
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tДраконы и другие неожиданные находки\r\n",
+        "TypePrefix": "Ролевая игра",
+        "Model": "Dungeons &amp; Dragons: Энциклопедия чудовищ",
+        "Url": "https://www.mosigra.ru/dungeons-and-dragons-jenciklopedija-chudovishh-na-russkom/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Dungeons%20Dragons:%20Энциклопедия%20чудовищ/DnD_Enciklopedia_Chudovich-1024x1024.jpg",
+        "Name": "Ролевая игра Hobby World Dungeons &amp; Dragons: Энциклопедия чудовищ"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1490,
+        "Weight": 7,
+        "ItemId": 346764,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Описание в пути",
+        "TypePrefix": "Аксессуар",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Бард",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-bard/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Bard-RU-1024x1024-1024x1024.jpg",
+        "Name": "Аксессуар Hobby World Dungeons &amp; Dragons: Карты заклинаний: Бард"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1490,
+        "Weight": 6,
+        "ItemId": 346765,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Описание в пути",
+        "TypePrefix": "Аксессуар",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Друид",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-druid/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Druid-RU_3D-1024x1024-1024x1024.jpg",
+        "Name": "Аксессуар Hobby World Dungeons &amp; Dragons: Карты заклинаний: Друид"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1790,
+        "Weight": 5,
+        "ItemId": 346766,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Описание в пути",
+        "TypePrefix": "Аксессуар",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Жрец",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-zhrec/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Cleric-RU_3D-1024x1024-1024x1024.jpg",
+        "Name": "Аксессуар Hobby World Dungeons &amp; Dragons: Карты заклинаний: Жрец"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1090,
+        "Weight": 4,
+        "ItemId": 346767,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Описание в пути",
+        "TypePrefix": "Аксессуар",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Паладин",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-paladin/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Paladin-RU-1024x1024-1024x1024.jpg",
+        "Name": "Аксессуар Hobby World Dungeons &amp; Dragons: Карты заклинаний: Паладин"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 2490,
+        "Weight": 3,
+        "ItemId": 346768,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Описание в пути",
+        "TypePrefix": "Аксессуар",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Мистическая магия",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-misticheskaja-magija/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Arcane-RU-1024x1024-1024x1024.jpg",
+        "Name": "Аксессуар Hobby World Dungeons &amp; Dragons: Карты заклинаний: Мистическая магия"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 1090,
+        "Weight": 2,
+        "ItemId": 346779,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения"
+        ],
+        "Params": {
+            "Возраст игроков": "от 12",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "Описание в пути\r\n\r\n\t \r\n",
+        "TypePrefix": "Аксессуар",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Способности бойцов и рас",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-sposobnosti-bojcov-i-ras/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Martial-RU_3D-1024x1024-1024x1024.jpg",
+        "Name": "Аксессуар Hobby World Dungeons &amp; Dragons: Карты заклинаний: Способности бойцов и рас"
+    },
+    {
+        "OldPrice": 0,
+        "Price": 990,
+        "Weight": 1,
+        "ItemId": 346856,
+        "CategoryIds": [
+            1408,
+            1626,
+            5320
+        ],
+        "CategoryPathsToRoot": [
+            [
+                1408
+            ],
+            [
+                1626,
+                1355
+            ],
+            [
+                5320,
+                1355
+            ]
+        ],
+        "Regions": null,
+        "CategoryNames": [
+            "Новинки",
+            "Ролевые игры",
+            "Дополнения"
+        ],
+        "Params": {
+            "Возраст игроков": "от 6",
+            "hit": "false",
+            "eng": "false",
+            "addon": "false",
+            "coming-soon": "false",
+            "new": "true",
+            "archive": "false"
+        },
+        "GroupId": null,
+        "StockId": null,
+        "Size": null,
+        "Color": null,
+        "Algorithm": "p",
+        "BuyUrl": null,
+        "Vendor": "Hobby World",
+        "Description": "\r\n\tБольше, еще больше\r\n",
+        "TypePrefix": null,
+        "Model": "Pathfinder. Настольная ролевая игра. Большое игровое поле",
+        "Url": "https://www.mosigra.ru/pathfinder-nastolnaja-rolevaja-igra-bolshoe-igrovoe-pole/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20Большое%20поле/PF_Inner_Sea_Flip-Mat_Bigger-Basic_WRAP_front-1024x1024.jpg",
+        "Name": "Hobby World Pathfinder. Настольная ролевая игра. Большое игровое поле"
+    }
+]

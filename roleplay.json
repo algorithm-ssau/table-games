@@ -1,0 +1,566 @@
+[
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 14",
+            "Количество игроков": "от 4 до 6",
+            "Время игры": "от 40 до 60"
+        },
+        "Description": "Улучшенная версия хитовой психологической игры",
+        "Model": "За бортом",
+        "Url": "https://www.mosigra.ru/za_bortom/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/560/798/DSC_0868_600x600-1024x1024.jpg"
+    },
+    {
+        "Price": 1990,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30"
+        },
+        "Description": "Подарочный набор с полем и фигурками",
+        "Model": "Манчкин Делюкс ",
+        "Url": "https://www.mosigra.ru/munchkin_delux/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Обновление%20обложек/Munchkin_Deluxe00-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 2490,
+        "Params": {
+            "Возраст игроков": "от 16",
+            "Количество игроков": "от 2 до 6",
+            "Время игры": "от 60"
+        },
+        "Description": "Новая версия Метро 2033",
+        "Model": "Метро 2033 (новое издание)",
+        "Url": "https://www.mosigra.ru/metro_2033/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Обновление%20обложек/metro203300-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 4990,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 2",
+            "Время игры": "от 120"
+        },
+        "Description": "\r\n\tМиру нужны герои\r\n",
+        "Model": "Dungeons &amp; Dragons. Книга игрока",
+        "Url": "https://www.mosigra.ru/dungeons-and-dragons-kniga-igroka-na-russkom/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Dungeons%20Dragons.%20Книга%20игрока/DnD_Kniga_Igroka-1024x1024.jpg"
+    },
+    {
+        "Price": 3990,
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 2 до 4",
+            "Время игры": "от 60 до 90"
+        },
+        "Description": "Обалденная командная стратегия",
+        "Model": "Андор",
+        "Url": "https://www.mosigra.ru/?route=product/product&product_id=325573",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/529/533/-2_600x600-1024x1024.jpg"
+    },
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30"
+        },
+        "Description": "Манчкин никогда не ошибается!",
+        "Model": "Манчкин 3. Клирические ошибки",
+        "Url": "https://www.mosigra.ru/Munchkin3/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%203/DSC_5292-1024x1024.jpg"
+    },
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 2 до 6",
+            "Время игры": "от 30 до 60"
+        },
+        "Description": "Особенное дополнение",
+        "Model": "Манчкин 6,5. Бабайки из склепа",
+        "Url": "https://www.mosigra.ru/munchkin_babaiki_iz_sklepa/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%206,5/DSC_5324-1024x1024.jpg"
+    },
+    {
+        "Price": 2990,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 2 до 5",
+            "Время игры": "от 60"
+        },
+        "Description": "",
+        "Model": "Pathfinder. Настольная ролевая игра. Вторая редакция. Стартовый набор",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-startovij-nabor/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20Настольная%20ролевая%20игра.%20Вторая%20редакция.%20Стартовый%20набор/Pathfinder2_BeginnerBox_00-1024x1024.jpg"
+    },
+    {
+        "Price": 4490,
+        "Params": {
+            "Возраст игроков": "от 16"
+        },
+        "Description": "\r\n\tЭтот мир не для нас\r\n",
+        "Model": "Pathfinder. Настольная ролевая игра. Основная книга правил. Вторая редакция",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-osnovnaja-kniga-pravil/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20Настольная%20ролевая%20игра.%20Основная%20книга%20правил.%20Вторая%20редакция/Pathfinder_2th-1024x1024.jpg"
+    },
+    {
+        "Price": 2490,
+        "Params": {
+            "Возраст игроков": "от 13",
+            "Количество игроков": "от 2 до 7",
+            "Время игры": "от 60"
+        },
+        "Description": "\r\n\tГалактика в ваших руках!\r\n",
+        "Model": "Starfinder. Настольная ролевая игра. Стартовый набор",
+        "Url": "https://www.mosigra.ru/starfinder-nastolnaja-rolevaja-igra-startovij-nabor/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Starfinder%20НРИ.%20Стартовый%20набор/Starfinder_BB_00-1024x1024.jpg"
+    },
+    {
+        "Price": 2990,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 2 до 4",
+            "Время игры": "от 30 до 200"
+        },
+        "Description": "Сложная версия «Манчкина» с другими правилами",
+        "Model": "Манчкин Квест",
+        "Url": "https://www.mosigra.ru/munchkin_quest/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Обновление%20обложек/Munchkin_Quest400-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 550,
+        "Params": {
+            "Возраст игроков": "от 12"
+        },
+        "Description": "",
+        "Model": "Dungeons &amp; Dragons. Герои и их снаряжение",
+        "Url": "https://www.mosigra.ru/dungeons-and-dragons-geroi-i-ih-snarjazhenie/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/dnd_geroi-1024x1024.jpg"
+    },
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60"
+        },
+        "Description": "Так, браток, садись на тигра — и поскакали!",
+        "Model": "Манчкин 4. Тяга к коняге",
+        "Url": "https://www.mosigra.ru/need_for_speed/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%204/DSC_5300-1024x1024.jpg"
+    },
+    {
+        "Price": 2990,
+        "Params": {
+            "Возраст игроков": "от 18",
+            "Количество игроков": "от 2 до 7",
+            "Время игры": "от 120"
+        },
+        "Description": "\r\n\tТехнологии будущего\r\n",
+        "Model": "Cyberpunk Red. Стартовый набор",
+        "Url": "https://www.mosigra.ru/cyberpunk-red-startovij-nabor/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/%20Cyberpunk%20Red.%20Стартовый%20набор/CyberpunkRED_01-1024x1024.jpg"
+    },
+    {
+        "Price": 1490,
+        "Params": {
+            "Возраст игроков": "от 18"
+        },
+        "Description": "\r\n\tЛюди любят выдумывать страшилищ и страхи\r\n",
+        "Model": "Ведьмак. Настольная ролевая игра: Правители и земли",
+        "Url": "https://www.mosigra.ru/vedmak-nri-praviteli-i-zemli/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Ведьмак.%20НРИ%20Правители%20и%20земли/Vedmak_Praviteli_i_Zemli-1024x1024.jpg"
+    },
+    {
+        "Price": 4990,
+        "Params": {
+            "Возраст игроков": "от 12"
+        },
+        "Description": "\r\n\tПостройте свой мир\r\n",
+        "Model": "Dungeons &amp; Dragons. Руководство мастера подземелий",
+        "Url": "https://www.mosigra.ru/dungeons-and-dragons-rukovodstvo-mastera-podzemelij/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Dungeons%20Dragons.%20Руководство%20мастера%20подземелий/DnD_Rukovodstvo_Mastera_01-1024x1024.jpg"
+    },
+    {
+        "Price": 890,
+        "Params": {
+            "Возраст игроков": "от 18",
+            "Количество игроков": "от 2 до 4",
+            "Время игры": "от 45 до 90"
+        },
+        "Description": "Описание в пути",
+        "Model": "Вампиры: Маскарад. Наследие: Набор для перезагрузки",
+        "Url": "https://www.mosigra.ru/vampiri-maskarad-nasledie-nabor-dlja-perezagruzki/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/recharged_pack_00-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60"
+        },
+        "Description": "Миксуй с двух рук, холостяк",
+        "Model": "Манчкин 7. Двуручный Чит",
+        "Url": "https://www.mosigra.ru/man4kin_7/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%207/DSC_5334-1024x1024.jpg"
+    },
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30"
+        },
+        "Description": "Добавим внезапности?",
+        "Model": "Манчкин 6. Безбашенные подземелья",
+        "Url": "https://www.mosigra.ru/manchkin_bb_podzemelya/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%206/DSC_5316-1024x1024.jpg"
+    },
+    {
+        "Price": 1290,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60"
+        },
+        "Description": "Напустили пара даже в Манчкин!",
+        "Model": "Манчкин Стимпанк",
+        "Url": "https://www.mosigra.ru/munchkin_steampunk/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/539/767/2_600x600-1024x1024.jpg"
+    },
+    {
+        "Price": 1290,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30"
+        },
+        "Description": "Махабхарату завершит Рагнарёк",
+        "Model": "Манчкин Легендарный",
+        "Url": "https://www.mosigra.ru/manchkin_legendarniy/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/Munchkin_Legendarniy00-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 290,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 4 до 8",
+            "Время игры": "от 40 до 60"
+        },
+        "Description": "Два чумовых дополнения в одной пачке",
+        "Model": "За бортом. Дополнения (старое издание)",
+        "Url": "https://www.mosigra.ru/Lifeboat_addons/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/532/015/2_600x600-1024x1024.jpg"
+    },
+    {
+        "Price": 1290,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60"
+        },
+        "Description": "Новая серия про Ктулху: не будить!",
+        "Model": "Манчкин Ктулху",
+        "Url": "https://www.mosigra.ru/man4kin_ktulhu/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Обновление%20обложек/Munchkin_Ktulhu00-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60"
+        },
+        "Description": "Пятое дополнение к базовой версии",
+        "Model": "Манчкин 5. Следопуты",
+        "Url": "https://www.mosigra.ru/munchkin_sledoputy/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%205/DSC_5308-1024x1024.jpg"
+    },
+    {
+        "Price": 1290,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60"
+        },
+        "Description": "Мозги! Еда! Ааргх!",
+        "Model": "Манчкин Зомби",
+        "Url": "https://www.mosigra.ru/man4kin_zombi/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/munchkin-zombie-box-1024x1024.jpg"
+    },
+    {
+        "Price": 3000,
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 2 до 4",
+            "Время игры": "от 60 до 90"
+        },
+        "Description": "Вас ждут приключения в&nbspморе и&nbspво&nbspльдах",
+        "Model": "Андор. Поход на север",
+        "Url": "https://www.mosigra.ru/?route=product/product&product_id=326625",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/531/789/-2_600x600-1024x1024.jpg"
+    },
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 3 до 6",
+            "Время игры": "от 30 до 60"
+        },
+        "Description": "Слышишь топот копыт?",
+        "Model": "Манчкин 8. В хвост и в Гриву",
+        "Url": "https://www.mosigra.ru/manchkin_8_v_hvost_i_v_grivu/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Товары/Hobby%20World/Манчкин%208/DSC_5342-1024x1024.jpg"
+    },
+    {
+        "Price": 3990,
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 2 до 4",
+            "Время игры": "от 60 до 90"
+        },
+        "Description": "Стать последним героем Андора",
+        "Model": "Андор. Последняя надежда",
+        "Url": "https://www.mosigra.ru/?route=product/product&product_id=327929",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/Andor_Box-1024x1024.jpg"
+    },
+    {
+        "Price": 590,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 1 до 4",
+            "Время игры": "90"
+        },
+        "Description": "Фэнтезийный детектив",
+        "Model": "Pathfinder. Расправа на Крюковой горе",
+        "Url": "https://www.mosigra.ru/pathfinder_rasprava_na_krukovoi_gore/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.product.box/547/972/2-1024x1024.jpg"
+    },
+    {
+        "Price": 3990,
+        "Params": {
+            "Возраст игроков": "от 18",
+            "Количество игроков": "от 3 до 8",
+            "Время игры": "от 120 до 500"
+        },
+        "Description": "Культовая ролевая игра",
+        "Model": "Вампиры: Маскарад. Классические правила",
+        "Url": "https://www.mosigra.ru/vampiry_maskarad_klassicheskie_pravila/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.product.box/564/003/DSC_5940-1024x1024.jpg"
+    },
+    {
+        "Price": 2490,
+        "Params": {
+            "Возраст игроков": "от 18",
+            "Количество игроков": "от 2",
+            "Время игры": "от 120"
+        },
+        "Description": "\r\n\tСпасение мира - дело рук самого мира\r\n",
+        "Model": "Ведьмак. Настольная ролевая игра (Книга)",
+        "Url": "https://www.mosigra.ru/vedmak-nastolnaja-rolevaja-igra/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Ведьмак.%20Настольная%20ролевая%20игра%20(Книга)/Vedmak_01-1024x1024.jpg"
+    },
+    {
+        "Price": 2490,
+        "Params": {
+            "Возраст игроков": "от 13",
+            "Количество игроков": "от 1 до 6",
+            "Время игры": "от 60"
+        },
+        "Description": "\r\n\tУжас из глубин\r\n",
+        "Model": "Зов Ктулху. Стартовый набор",
+        "Url": "https://www.mosigra.ru/zov-ktulhu-startovij-nabor/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Зов%20Ктулху%20НРИ/Zov_Ktulhu_02-1024x1024.jpg"
+    },
+    {
+        "Price": 490,
+        "Params": {
+            "Возраст игроков": "от 14",
+            "Количество игроков": "от 4 до 8",
+            "Время игры": "от 40 до 60"
+        },
+        "Description": "Три дополнения в лодке",
+        "Model": "За Бортом. Дополнение",
+        "Url": "https://www.mosigra.ru/za_bortom_dop/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/mosigra.market/564/680/DSC_7072_600x600-1024x1024.jpg"
+    },
+    {
+        "Price": 1790,
+        "Params": {
+            "Возраст игроков": "от 18",
+            "Количество игроков": "от 2 до 5",
+            "Время игры": "от 120"
+        },
+        "Description": "\r\n\tДневника у тебя тоже два?\r\n",
+        "Model": "Ведьмак НРИ: Дневник охотника на чудовищ",
+        "Url": "https://www.mosigra.ru/vedmak-nri-dnevnik-ohotnika-na-chudovishh/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Ведьмак.%20Настольная%20ролевая%20игра:%20Дневник%20охотника%20на%20чудовищ/Vedmak_Dnevnik-1024x1024.jpg"
+    },
+    {
+        "Price": 1490,
+        "Params": {
+            "Возраст игроков": "от 10",
+            "Количество игроков": "от 1 до 8",
+            "Время игры": "от 30"
+        },
+        "Description": "\r\n\tБумага все стерпит\r\n",
+        "Model": "Бумажные подземелья",
+        "Url": "https://www.mosigra.ru/bumazhnie-podzemelja/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Lavka%20Games/Бумажное%20подземелье/Bumazhnye_Podzemelya00-1024x1024.jpg"
+    },
+    {
+        "Price": 1490,
+        "Params": {
+            "Возраст игроков": "от 18"
+        },
+        "Description": "\r\n\tСпускаемся прямо в ад\r\n",
+        "Model": "Dungeons &amp; Dragons: Врата Балдура: Нисхождение в Авернус: Ширма мастера подземелий",
+        "Url": "https://www.mosigra.ru/dungeons-and-dragons-vrata-baldura-nishozhdenie-v-avernus-shirma-mastera-podzemelij/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Ширма%20врата%20балдура/DnD_Nishojdenie_V_Avernus-1024x1024.jpg"
+    },
+    {
+        "Price": 590,
+        "Params": {
+            "Возраст игроков": "от 6"
+        },
+        "Description": "\r\n\tОтличное место, чтобы отдохнуть\r\n",
+        "Model": "Pathfinder. НРИ. Вторая редакция. Игровое поле &quot;Неприятности в Отари&quot;",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-igrovoe-pole-neprijatnosti-v-otari/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20НРИ.%20Неприятности%20в%20Отари/Pathfinder_Pole_Nepriyatnosti_v_Otari-1024x1024.jpg"
+    },
+    {
+        "Price": 490,
+        "Params": {
+            "Возраст игроков": "от 12"
+        },
+        "Description": "\r\n\tВыглядишь уставшим\r\n",
+        "Model": "Pathfinder. Настольная ролевая игра. Вторая редакция. Карты состояний",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-karti-sostojanij/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20Карты%20состояний/Pathfinder_Cards_00-1024x1024.jpg"
+    },
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 12",
+            "Количество игроков": "от 2 до 5",
+            "Время игры": "от 60"
+        },
+        "Description": "\r\n\tКаждый герой найдёт что-то себе по вкусу!\r\n",
+        "Model": "Pathfinder НРИ Вторая редакция: Приключение «Неприятности в Отари»",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-prikljuchenie-neprijatnosti-v-otari/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20НРИ.%20Вторая%20редакция:%20Приключение%20Неприятности%20в%20Отари/Pathfinder_Nepriyatnosti_V_Otari-1024x1024.jpg"
+    },
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 12"
+        },
+        "Description": "\r\n\tЗанимаймя своими делами\r\n",
+        "Model": "Pathfinder. Настольная ролевая игра. Вторая редакция. Ширма ведущего",
+        "Url": "https://www.mosigra.ru/pathfinder-nri-vtoraja-redakcija-shirma-vedushhego/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20Ширма%20ведущего/Pathfinder_2th_Shirma-1024x1024.jpg"
+    },
+    {
+        "Price": 1990,
+        "Params": {
+            "Возраст игроков": "от 14",
+            "Количество игроков": "от 2 до 5",
+            "Время игры": "от 60"
+        },
+        "Description": "\r\n\tТени над городом\r\n",
+        "Model": "Shadowrun: Шестой мир. Стартовый набор",
+        "Url": "https://www.mosigra.ru/shadowrun-shestoj-mir-nri-startovij-nabor/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Shadowrun:%20Шестой%20мир.%20Стартовый%20набор/shadowrun_box_3d_opt-1024x1024.jpg"
+    },
+    {
+        "Price": 2990,
+        "Params": {
+            "Возраст игроков": "от 18"
+        },
+        "Description": "\r\n\tГрани будущего\r\n",
+        "Model": "Shadowrun: Шестой мир. Основная книга правил",
+        "Url": "https://www.mosigra.ru/shadowrun-shestoj-mir-osnovnaja-kniga-pravil/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Shadowrun:%20Шестой%20мир.%20Основная%20книга%20правил/Shadowrun_6th-1024x1024.jpg"
+    },
+    {
+        "Price": 4990,
+        "Params": {},
+        "Description": "\r\n\tДраконы и другие неожиданные находки\r\n",
+        "Model": "Dungeons &amp; Dragons: Энциклопедия чудовищ",
+        "Url": "https://www.mosigra.ru/dungeons-and-dragons-jenciklopedija-chudovishh-na-russkom/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Dungeons%20Dragons:%20Энциклопедия%20чудовищ/DnD_Enciklopedia_Chudovich-1024x1024.jpg"
+    },
+    {
+        "Price": 1490,
+        "Params": {
+            "Возраст игроков": "от 12"
+        },
+        "Description": "Описание в пути",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Бард",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-bard/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Bard-RU-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 1490,
+        "Params": {
+            "Возраст игроков": "от 12"
+        },
+        "Description": "Описание в пути",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Друид",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-druid/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Druid-RU_3D-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 1790,
+        "Params": {
+            "Возраст игроков": "от 12"
+        },
+        "Description": "Описание в пути",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Жрец",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-zhrec/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Cleric-RU_3D-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 1090,
+        "Params": {
+            "Возраст игроков": "от 12"
+        },
+        "Description": "Описание в пути",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Паладин",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-paladin/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Paladin-RU-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 2490,
+        "Params": {
+            "Возраст игроков": "от 12"
+        },
+        "Description": "Описание в пути",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Мистическая магия",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-misticheskaja-magija/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Arcane-RU-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 1090,
+        "Params": {
+            "Возраст игроков": "от 12"
+        },
+        "Description": "Описание в пути\r\n\r\n\t \r\n",
+        "Model": "Dungeons &amp; Dragons: Карты заклинаний: Способности бойцов и рас",
+        "Url": "https://www.mosigra.ru/dungeons-andamp-dragons-karti-zaklinanij-sposobnosti-bojcov-i-ras/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Photo/DnD_cards_Box-Martial-RU_3D-1024x1024-1024x1024.jpg"
+    },
+    {
+        "Price": 990,
+        "Params": {
+            "Возраст игроков": "от 6"
+        },
+        "Description": "\r\n\tБольше, еще больше\r\n",
+        "Model": "Pathfinder. Настольная ролевая игра. Большое игровое поле",
+        "Url": "https://www.mosigra.ru/pathfinder-nastolnaja-rolevaja-igra-bolshoe-igrovoe-pole/",
+        "PictureUrl": "https://www.mosigra.ru/image/cache/data/Предварительные%20товары/Hobby%20World/Pathfinder.%20Большое%20поле/PF_Inner_Sea_Flip-Mat_Bigger-Basic_WRAP_front-1024x1024.jpg"
+    }
+]
