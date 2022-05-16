@@ -2,7 +2,9 @@ import Login from "./pages/Login";
 import Table from "./pages/Table";
 import Add from "./pages/Add"
 import Change from "./pages/Change";
-import {ADD_ROUTE, ADMIN_ROUTE_LOGIN, TABLE_ROUTE} from "./utils/const";
+import Main from "./pages/Main"
+import {ADD_ROUTE, ADMIN_ROUTE_LOGIN, TABLE_ROUTE, MAIN_ROUTE} from "./utils/const";
+import Category from "./pages/Category";
 
 
 
@@ -25,5 +27,13 @@ export const publicRoutes = [
     {
         path: ADMIN_ROUTE_LOGIN,
         component: <Login/>
+    },
+    {
+        path: MAIN_ROUTE,
+        component: <Main/>
+    },
+    {
+        path: MAIN_ROUTE + '/:id',
+        component: <Category/>
     }
 ]
