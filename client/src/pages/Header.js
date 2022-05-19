@@ -14,7 +14,7 @@ import {CSSTransition} from 'react-transition-group';
 import {observer} from "mobx-react-lite";
 import {useContext, useEffect} from "react";
 import {Context} from "../index";
-import {fetchCategory} from "../http/gameAPI";
+import {fetchCategory, fetchSearch} from "../http/gameAPI";
 import {MAIN_ROUTE} from "../utils/const";
 /*
 $$\   $$\                           $$\
@@ -34,6 +34,7 @@ var flagBasket = new Boolean(false);
 
 const Header = observer(() =>{
     const {game} = useContext(Context)
+
     useEffect(() => {
         fetchCategory().then(data => game.setCategories(data))
     }, [])
@@ -69,9 +70,12 @@ const Header = observer(() =>{
     );
 })
 
+var searchVal = ''
+
 function NavSearch(props){
     const[open, setOpen] = useState(false);
     var value = "";
+
 
 /*
 
@@ -91,6 +95,8 @@ $$ | \$$ | $$$$$$  |      \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$
 
     function Check() {
         value = document.getElementById("site-search").value;
+        searchVal = value
+
         if (value === "" && flag) {
             setOpen(!open);
             flag = false;
@@ -126,28 +132,47 @@ $$ | \$$ | $$$$$$  |      \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$
 
 };
 
-function DropdownItemSearch(props){
-    return(
-        <div>
-            <div className="menu-search-img"></div>
-            <div className="menu-search-name">Немезида</div>
-            <div className="menu-search-subname">В космосе никто не услышит вашего крика</div>
-            <img src={AddCart} className="AddCard"/>
-            <div className="menu-search-price">6999р</div>
+const DropdownItemSearch = ({game}) =>{
+    {
 
-            <div className="menu-search-line"></div>
-        </div>
-    );
-};
+        return (
+            <div>
+                <img src={game.little_picture} className="menu-search-img"></img>
+                <div className="menu-search-name">{game.game_name}</div>
+                <div className="menu-search-subname">{game.little_description}</div>
+                <img src={AddCart} className="AddCard"/>
+                <div className="menu-search-price">{game.price}</div>
+
+                <div className="menu-search-line"></div>
+            </div>
+        );
+    }
+    ;
+}
+
+
+
+
 
 function DropdownMenuSearch(){
+    const {search} = useContext(Context)
 
+    useEffect(() => {
+        if(searchVal === ""){}
+        else {
+
+            fetchSearch(searchVal).then(data =>{
+                search.setGames(data.rows)
+                search.setTotal(data.count)}
+            )
+        }
+    },[searchVal])
     return(
 
         <div className={DropCSS_Search}>
-
-            <DropdownItemSearch/>
-            <DropdownItemSearch/>
+            {
+                search.countTotal > 0 ? <div>{search.games.map(game => <DropdownItemSearch key={game.id_product} game={game}/>)}</div> :  <div className="searchOpps">#Oppps. Ничего не найдено. </div>
+            }
         </div>
 
     );

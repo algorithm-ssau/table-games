@@ -7,7 +7,12 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
-
+.searchOpps{
+  text-align: center;
+  color: #fff;
+  margin: 25px;
+  font:normal normal bold 16px Montserrat;
+}
 .no_decor{
   text-decoration: none;
   color: white;
@@ -450,6 +455,7 @@ body{
       }
       text-align: left;
       font: normal normal 600 12px Montserrat;
+      width: 60%;
       letter-spacing: 1px;
       color: #FFFFFF;
       text-transform: uppercase;
@@ -471,6 +477,7 @@ body{
       }
       display: inline-block;
       text-align: left;
+      width: 50%;
       font: normal normal normal 10px Montserrat;
       margin-top: 1%;
       letter-spacing: 0px;
