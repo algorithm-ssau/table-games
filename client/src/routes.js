@@ -5,6 +5,7 @@ import Change from "./pages/Change";
 import Main from "./pages/Main"
 import {ADD_ROUTE, ADMIN_ROUTE_LOGIN, TABLE_ROUTE, MAIN_ROUTE} from "./utils/const";
 import Category from "./pages/Category";
+import GamePage from "./pages/GamePage";
 
 
 
@@ -35,5 +36,9 @@ export const publicRoutes = [
     {
         path: MAIN_ROUTE + '/:id',
         component: <Category/>
+    },
+    {
+        path: MAIN_ROUTE + '/Game/:id',
+        component: <GamePage/>
     }
 ]

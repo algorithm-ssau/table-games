@@ -42,3 +42,7 @@ export const fetchNews = async (page, limit = 4) =>{
     const {data} = await $host.get('api/game/News', {params:{page,limit}})
     return data
 }
+export const fetchSearch = async (search = '', limit = 5) =>{
+    const{data} = await $host.get('api/game/Search', {params:{search, limit}})
+    return data
+}
