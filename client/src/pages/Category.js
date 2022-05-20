@@ -47,7 +47,7 @@ const Category = observer(() =>  {
             game.setGames(data.rows)
             game.setTotal(data.count)
         })
-    }, [game.page])
+    }, [game.page, id])
     function changePagePlus(){
         setContainer("container_to_left Container-for-list")
 
