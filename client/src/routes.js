@@ -3,7 +3,7 @@ import Table from "./pages/Table";
 import Add from "./pages/Add"
 import Change from "./pages/Change";
 import Main from "./pages/Main"
-import {ADD_ROUTE, ADMIN_ROUTE_LOGIN, TABLE_ROUTE, MAIN_ROUTE} from "./utils/const";
+import {ADD_ROUTE, ADMIN_ROUTE_LOGIN, TABLE_ROUTE, MAIN_ROUTE, CATEGORY_ROUTE} from "./utils/const";
 import Category from "./pages/Category";
 import GamePage from "./pages/GamePage";
 
@@ -34,7 +34,7 @@ export const publicRoutes = [
         component: <Main/>
     },
     {
-        path: MAIN_ROUTE + '/:id',
+        path: CATEGORY_ROUTE + '/:id',
         component: <Category/>
     },
     {

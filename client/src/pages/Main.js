@@ -20,6 +20,7 @@ import {observer} from "mobx-react-lite";
 import {useContext, useEffect} from "react";
 import {Context} from "../index";
 import {fetchCategory, fetchNews, fetchPopular} from "../http/gameAPI";
+import {useNavigate} from "react-router-dom";
 /*
 $$\      $$\           $$\
 $$$\    $$$ |          \__|
@@ -149,6 +150,39 @@ const Main = observer(() =>  {
 
 
     }
+    let nav = useNavigate()
+    const {buyer} = useContext(Context)
+    function Cart(){
+        const basket = buyer.basket
+        var index = basket.findIndex(obj => obj.id_product===454)
+        if(index < 0){
+            if(buyer.basketCount === 0){
+                const updateCart = [{id_product: 454, products_count: 1, price: 6990}]
+                buyer.setBasket(updateCart)
+                localStorage.setItem('cart', JSON.stringify(updateCart))
+                buyer.setBasketCount(buyer.basketCount + 1)
+            }
+            else {
+                var oldCart = buyer.basket
+                const updateCart = [...oldCart, {id_product: 454, products_count: 1, price: 6990}]
+                buyer.setBasket(updateCart)
+                localStorage.setItem('cart', JSON.stringify(updateCart))
+                buyer.setBasketCount(buyer.basketCount + 1)
+            }
+        }
+        else{
+            const updateCart = basket;
+            const countCart = basket
+            const newCountCart = countCart.slice(index, index + 2)
+            const count = newCountCart[0].products_count
+            const newCount = count + 1
+            updateCart.splice(index,1, {id_product: 454,  products_count: newCount, price: 6990});
+            buyer.setBasket(updateCart)
+            buyer.setBasketCount2(buyer.basketCount2 + 1)
+            localStorage.setItem('cart', JSON.stringify(updateCart))
+        }
+
+    }
   return (
 
       <div>
@@ -159,12 +193,12 @@ const Main = observer(() =>  {
             <img className="Banner-Blob" src={Blob1}></img>
             <img className="Banner-Blob2" src={Blob2}></img>
             <div className="Banner-Container">
-                <div className="Banner-Name">НЕМЕЗИДА</div>
-                <div className="Banner-Sub-Name">КАРНОМОРФЫ</div>
-                <div className="Banner-text">
+                <div onClick={() => {nav('/Game/454')}} className="Banner-Name">НЕМЕЗИДА</div>
+                <div onClick={() => {nav('/Game/454')}} className="Banner-Sub-Name">КАРНОМОРФЫ</div>
+                <div onClick={() => {nav('/Game/454')}} className="Banner-text">
                     Всё произошло из-за одной-единственной кошки. Должно быть, она пробралась на борт во время нашей встречи с научным кораблём "Адрастея". Забрав нужные нам образцы, мы совершили обратный гиперпрыжок, и все благополучно уснули. Все, кроме кошки. Даже девять жизней не могли её спасти.
                 </div>
-            <button className="Banner-Button">В корзину</button>
+            <button  className="Banner-Button" onClick={() => Cart()}>В корзину</button>
             </div>
 
             <div className="Banner-Glass"></div>

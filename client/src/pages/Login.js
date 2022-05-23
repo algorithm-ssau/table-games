@@ -19,6 +19,7 @@ import {Context} from "../index";
 
 const Login = observer(() => {
     const {user} = useContext(Context)
+    console.log(JSON.stringify(user.user))
     const location = useLocation()
     const navigate = useNavigate();
     const isLogin = location.pathname === ADMIN_ROUTE_LOGIN
@@ -34,6 +35,7 @@ const Login = observer(() => {
             user.setIsAuth(true);
 
             navigate(TABLE_ROUTE)
+
 
 
 

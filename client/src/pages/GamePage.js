@@ -16,12 +16,14 @@ import NavigateNextIcon from '@mui/icons-material/NavigateNext'
 import Grid from "@mui/material/Grid";
 import Carousel from "nuka-carousel";
 import Arrow from "../img/Icon ionic-ios-arrow-back.svg";
+import {CATEGORY_ROUTE} from "../utils/const";
+import {pushBasket, updBasket} from "../http/userApi";
 
 const GamePage = observer(() => {
     const[game, setGame] = useState({})
     const {category} = useContext(Context)
+    const {buyer} = useContext(Context)
     const {id} = useParams()
-
     useEffect(() =>{
 
         fetchCategory().then(data => {
@@ -33,32 +35,81 @@ const GamePage = observer(() => {
         })
 
     },[])
+    useEffect(()=>{
+        setTimeout(()=>{
+                setImg(game.mas_pictures.split('\n'))
 
+            },100
+        )
+        setTimeout(() => {
+            setCategory1((get(category.categories, (catId- 1))).name_category)
+
+        }, 100)
+    },[game])
+    useEffect(() =>{
+
+        fetchCategory().then(data => {
+            category.setCategories(data)
+        })
+        setTimeout(() => {},700)
+        fetchOneGame(id).then(data => {
+            setGame(data)
+        })
+    },[id])
+
+    function Cart(){
+        const basket = buyer.basket
+        var index = basket.findIndex(obj => obj.id_product===game.id_product)
+        var auth = buyer.isAuth
+        if(index < 0){
+            if(buyer.basketCount === 0){
+
+                const updateCart = [{id_product: game.id_product, products_count: 1, price: game.price}]
+                if(auth===true){
+                    pushBasket(parseInt(buyer.user.id),game.id_product,1,game.price).then(data => {})
+                }
+
+                buyer.setBasket(updateCart)
+                localStorage.setItem('cart', JSON.stringify(updateCart))
+                buyer.setBasketCount(buyer.basketCount + 1)
+            }
+            else {
+                const oldCart = basket
+                const updateCart = [...oldCart, {id_product: game.id_product, products_count: 1, price: game.price}]
+
+                if(buyer.isAuth===true){
+                    pushBasket(parseInt(buyer.user.id),game.id_product,1,game.price).then(data => {})
+                }
+                buyer.setBasket(updateCart)
+                localStorage.setItem('cart', JSON.stringify(updateCart))
+                buyer.setBasketCount(buyer.basketCount + 1)
+            }
+        }
+        else{
+            const updateCart = basket;
+            const countCart = basket
+            const newCountCart = countCart.slice(index, index + 2)
+            const count = newCountCart[0].products_count
+            const newCount = count + 1
+            if(buyer.isAuth===true){
+                console.log(newCount)
+                updBasket(parseInt(buyer.user.id),game.id_product,newCount).then(data => {})
+            }
+            updateCart.splice(index,1, {id_product: game.id_product,  products_count: newCount, price: game.price});
+            buyer.setBasket(updateCart)
+            buyer.setBasketCount2(buyer.basketCount2 + 1)
+            localStorage.setItem('cart', JSON.stringify(updateCart))
+        }
+
+    }
     const catId = game.categoryIdCategories
-    let link = "/" + catId
+    let link = CATEGORY_ROUTE +"/" +catId
     const [category1, setCategory1] = useState('');
-    setTimeout(() => {
-        setCategory1((get(category.categories, (catId- 1))).name_category)
 
-    }, 100)
     let rule_link = "" + game.rool_link
 
 
     const [img, setImg] = useState([])
-    const [imgDiv, setImgDiv] = useState()
-    setTimeout(()=>{
-        setImg(game.mas_pictures.split('\n'))
-
-        },100
-    )
-
-
-
-
-
-
-
-
     return(
 
             <div>
@@ -107,7 +158,7 @@ const GamePage = observer(() => {
                         <Grid item xs={2.5} className="Container-game-price">
                                 <div className="game-id">Код товара:{game.id_product}</div>
                                 <div className="game-price-container"><div className="game-price">{game.price}</div><div className="game-rub">руб.</div></div>
-                                <div className="game-dropbus-button">В корзину</div>
+                                <div onClick={() => Cart()} className="game-dropbus-button">В корзину</div>
                                 <div className="game-delivery">Самовывоз из 1 магазина от 7 дней, бесплатно<br/>Самовывоз из 51 пункта выдачи, 2 - 7 дней, от 165 ₽ <br/>Курьерская доставка, от 7 дней, от 343 ₽<br/> Почта России, от 15 дней, от 292 ₽</div>
 
                         </Grid>

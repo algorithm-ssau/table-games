@@ -8,14 +8,19 @@ import Basket from '../img/basket-outline.svg';
 import Profile from '../img/profile_2.svg';
 import Cancel from '../img/cancel.svg';
 import Search from '../img/Icon ionic-ios-search.svg'
-import {Link, useNavigate} from 'react-router-dom';
+import {Link, useNavigate, useParams} from 'react-router-dom';
 import Arrow from "../img/Icon ionic-ios-arrow-back.svg";
 import {CSSTransition} from 'react-transition-group';
 import {observer} from "mobx-react-lite";
 import {useContext, useEffect} from "react";
 import {Context} from "../index";
-import {fetchCategory, fetchSearch} from "../http/gameAPI";
-import {MAIN_ROUTE} from "../utils/const";
+import {fetchCategory, fetchOneGame, fetchSearch} from "../http/gameAPI";
+import {CATEGORY_ROUTE, MAIN_ROUTE} from "../utils/const";
+import {delBasket, getBasket, loginBuyer, pushBasket, registration, updBasket} from "../http/userApi";
+import MonoBear from "../img/monobear-eating.gif"
+import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+
+
 /*
 $$\   $$\                           $$\
 $$ |  $$ |                          $$ |
@@ -28,12 +33,16 @@ $$ |  $$ |\$$$$$$$\ \$$$$$$$ |\$$$$$$$ |\$$$$$$$\ $$ |
 */
 
 
-var flagBasket = new Boolean(false);
-
-
 
 const Header = observer(() =>{
     const {game} = useContext(Context)
+    const {buyer} = useContext(Context)
+    useEffect(() => {
+        {
+
+        }
+    }, [buyer.basketCount2])
+
 
     useEffect(() => {
         fetchCategory().then(data => game.setCategories(data))
@@ -56,7 +65,7 @@ const Header = observer(() =>{
 
 
             <NavBasket>
-                <DropdownBasket/>
+                {buyer.basketCount===0 ? <DropdownBasketVoid/> : <DropdownBasket/>}
             </NavBasket>
 
             <NavProf>
@@ -70,12 +79,12 @@ const Header = observer(() =>{
     );
 })
 
-var searchVal = ''
+var searchVal;
 
 function NavSearch(props){
     const[open, setOpen] = useState(false);
-    var value = "";
-
+    const [value, setValue] = useState('')
+    const {id} = useParams();
 
 /*
 
@@ -93,9 +102,9 @@ $$ | \$$ | $$$$$$  |      \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$
 
     var flag = new Boolean(false);
 
-    function Check() {
-        value = document.getElementById("site-search").value;
+    useEffect(()=> {
         searchVal = value
+
 
         if (value === "" && flag) {
             setOpen(!open);
@@ -109,8 +118,10 @@ $$ | \$$ | $$$$$$  |      \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$
 
         }
 
-    }
-
+    },[value])
+    useEffect(()=>{
+        setValue('')
+    },[id])
 
    return(
         <div>
@@ -123,7 +134,7 @@ $$ | \$$ | $$$$$$  |      \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$
                                onEntering={() => setOpen(open)}
                                onExited={() => setOpen(open)}
                 >{props.children}</CSSTransition>
-                <div><input onInput={Check}  autoComplete="off" type="search" id="site-search" name="q" placeholder="Поиск..."></input></div>
+                <div><input onChange={e => setValue(e.target.value)}  autoComplete="off" type="search" id="site-search" name="q" placeholder="Поиск..."></input></div>
 
 
             </div>
@@ -133,10 +144,13 @@ $$ | \$$ | $$$$$$  |      \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$
 };
 
 const DropdownItemSearch = ({game}) =>{
+
+    const nav = useNavigate()
+
     {
 
         return (
-            <div>
+            <div onClick={() => nav('/Game/' + game.id_product)} className="search-nav">
                 <img src={game.little_picture} className="menu-search-img"></img>
                 <div className="menu-search-name">{game.game_name}</div>
                 <div className="menu-search-subname">{game.little_description}</div>
@@ -266,7 +280,7 @@ const DropdownMenu = observer(() => {
     return(
 
         <div>
-            {game.categories.map(category => <DropdownItem><Link className="no_decor" to={MAIN_ROUTE + category.id_categories}>#{category.name_category}</Link></DropdownItem>)}
+            {game.categories.map(category => <DropdownItem><Link className="no_decor" to={CATEGORY_ROUTE + '/' +category.id_categories}>#{category.name_category}</Link></DropdownItem>)}
         </div>
 
 
@@ -301,18 +315,12 @@ function NavBasket(props){
     function Open(){
 
         if(flagClose){
-
             DropCSS_Basket = "fade-out BasketVoidDrop";
-
-
             setOpen(!flagClose);
             flagClose = false;
         }
         else{
-
             DropCSS_Basket = "fade-in BasketVoidDrop";
-
-
             setOpen(!flagClose);
             flagClose = true;
         }
@@ -329,7 +337,7 @@ function NavBasket(props){
                                classNames="DropAnim"
                                onEntering={() => setOpen(open)}
                                onExited={() => setOpen(open)}
-                ><div onPointerLeave={Hide}   className={DropCSS_Basket}>{props.children}</div></CSSTransition></div>
+                    ><div onPointerLeave={Hide}   className={DropCSS_Basket}>{props.children}</div></CSSTransition></div>
                 <img onClick={Open}  src={Basket}/>
 
 
@@ -347,25 +355,49 @@ function DropdownBasketVoid() {
             <div className="BasketVoidDrop-sub-text">Добавьте хотя бы один товар, чтобы сделать заказ</div>
 
 
-            <div className="BasketVoidDrop-Container-back-button">
-                <img id="BasketVoidDrop-Arrow-back" src={Arrow}></img>
-                <div className="BasketVoidDrop-back-text">Вернуться назад</div>
-            </div>
+
         </div>
 
 
     );
 }
-function DropdownBasket(){
+
+
+const DropdownBasket = observer(() => {
+
+    const {buyer} = useContext(Context)
+
+    const [price, setPrice] = useState(0)
+    var basket
+
+    useEffect(() =>{
+        buyer.setBasket(JSON.parse(localStorage.getItem('cart')))
+        basket = buyer.basket
+        let total = 0
+        basket.forEach(element => total = element.price * element.products_count + total)
+        setPrice(total)
+    }, [buyer.basketCount2])
+
+    useEffect(() =>{
+        buyer.setBasket(JSON.parse(localStorage.getItem('cart')))
+        basket = buyer.basket
+        let total = 0
+        basket.forEach(element => total = element.price * element.products_count + total)
+        setPrice(total)
+    }, [buyer.basketCount])
+
+
+
+
     return(
         <div className="dropdown-basket-cot">
             <div className="dropdown-basket-container">
-                <DropdownBasketItem/>
-                <DropdownBasketItem/>
-
+                <div className="basket-cot">
+                    {buyer.basket.map(game => <DropdownBasketItem key={game.id_product} buyer1={game}/>)}
+                </div>
                 <div className="dropdown-basket-dash-line"></div>
                 <div className="dropdown-basket-dash-line-text-cont">
-                    <div className="dropdown-basket-dash-line-under-text">Итого</div><div id="Price" className="dropdown-basket-dash-line-under-text">24999р</div>
+                    <div className="dropdown-basket-dash-line-under-text">Итого</div><div id="Price" className="dropdown-basket-dash-line-under-text">{price}р</div>
                 </div>
                 <div className="BasketVoidDrop-Container-back-button">
 
@@ -377,15 +409,89 @@ function DropdownBasket(){
         </div>
 
     );
-}
-function DropdownBasketItem(){
+})
+const DropdownBasketItem = ({buyer1}) => {
+    const [load, setLoad] = useState(false)
+    const[game, setGame] = useState({})
+
+
+    const {buyer} = useContext(Context)
+    const[count, setCount] = useState(1)
+    let nav = useNavigate();
+
+    function deleteElem(){
+        const oldCart = buyer.basket
+        var index = oldCart.findIndex(obj => obj.id_product===buyer1.id_product);
+        oldCart.splice(index,1);
+        localStorage.setItem('cart', JSON.stringify(oldCart))
+        if(buyer.isAuth===true){
+            delBasket(buyer.user.id,buyer1.id_product).then(data => {})
+        }
+        buyer.setBasket(oldCart)
+        buyer.setBasketCount(buyer.basketCount - 1)
+    }
+    function minusCounter(){
+        if(count === 1){
+            deleteElem()
+        }
+        else{
+            const newCount = count - 1
+            setCount(newCount)
+            var oldCart = buyer.basket
+            var index = oldCart.findIndex(obj => obj.id_product===buyer1.id_product);
+            oldCart.splice(index,1, {id_product: game.id_product,  products_count: newCount, price: game.price});
+            buyer.setBasket(oldCart)
+            if(buyer.isAuth===true){
+                updBasket(buyer.user.id,buyer1.id_product,newCount).then(data => {})
+            }
+            localStorage.setItem('cart', JSON.stringify(oldCart))
+            buyer.setBasketCount2(buyer.basketCount2 + 1)
+        }
+    }
+    function plusCounter(){
+        const newCount = count + 1
+        setCount(newCount)
+        var oldCart = buyer.basket
+        var index = oldCart.findIndex(obj => obj.id_product==buyer1.id_product);
+        oldCart.splice(index,1, {id_product: game.id_product,  products_count: newCount, price: game.price});
+        var newCart = oldCart
+        buyer.setBasket(newCart)
+        if(buyer.isAuth===true){
+            updBasket(buyer.user.id,buyer1.id_product,newCount).then(data => {})
+        }
+        localStorage.setItem('cart', JSON.stringify(oldCart))
+        buyer.setBasketCount2(buyer.basketCount2 + 1)
+
+
+    }
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLoad(!load)
+            },500
+
+        )
+    },[])
+    useEffect(() => {
+        setCount(buyer1.products_count)
+    }, [buyer.basketCount2])
+
+
+    useEffect(() => {
+            fetchOneGame(buyer1.id_product).then(data => {
+                setGame(data)
+
+            })
+        setCount(buyer1.products_count)
+    },[load])
+
     return(
       <div  className="dropdown-basket-container-item">
-        <div className="dropdown-basket-img"></div>
-          <div className="dropdown-basket-name">Немезис</div>
-          <div className="dropdown-basket-price">6999р</div>
-          <div className="dropdown-basket-counter"><div  className="dropdown-basket-counter-symbol"> -</div ><div className="dropdown-basket-counter-symbol">2</div><div className="dropdown-basket-counter-symbol">+</div> </div>
-            <img src={Cancel} className="dropdown-basket-cancel"/>
+        <img onClick={() => nav('/Game/' + game.id_product)} src={game.little_picture} className="dropdown-basket-img"></img>
+          <div onClick={() => nav('/Game/' + game.id_product)} className="dropdown-basket-name">{game.game_name}</div>
+          <div className="dropdown-basket-price">{game.price}</div>
+          <div className="dropdown-basket-counter"><div  className="dropdown-basket-counter-symbol" onClick={() => minusCounter()}> -</div ><div className="dropdown-basket-counter-symbol">{count}</div><div className="dropdown-basket-counter-symbol" onClick={() => plusCounter()}>+</div> </div>
+            <img onClick={() => deleteElem()} src={Cancel} className="dropdown-basket-cancel"/>
             <div className="dropdown-basket-line"></div>
       </div>
 
@@ -433,17 +539,129 @@ function NavProf(props){
     );
 };
 function DropdownProfile(){
+
+
+
+
+    const {buyer} = useContext(Context)
+
+
+
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+    const [isAuth, setIsAuth] = useState(buyer.isAuth)
+    const [flag, setFlag] = useState(false)
+
+    function chageFlag(){
+        setFlag(!flag)
+
+    }
+
+
+    const logIn = async () => {
+        try {
+            let data;
+            data = await loginBuyer(email, password);
+            buyer.setUser(data)
+            buyer.setIsAuth(true);
+            setIsAuth(buyer.isAuth)
+            let basket = buyer.basket;
+            var buyerIdBuyer = buyer.user.id
+            setTimeout(() => {
+
+                basket.forEach(element => {pushBasket(parseInt(buyerIdBuyer),element.id_product,element.products_count,element.price )})
+                setTimeout(() => {
+                    getBasket(buyerIdBuyer).then(data => {
+                        var newData = data;
+                        var id_product
+                        for(let i=0; i<newData.length; i++){
+                            id_product = newData[i].productIdProduct
+                            delete newData[i].productIdProduct
+                            newData[i].id_product = id_product
+                        }
+                        buyer.setBasket(newData)
+                        localStorage.setItem('cart',JSON.stringify(newData))
+                    })
+                },300)
+
+
+            },1000)
+
+
+
+        } catch (e){
+            alert(e.response.data.message)
+        }
+
+    }
+    const sigIn = async () => {
+        try {
+
+            const data = await registration(email, password);
+            buyer.setUser(data)
+            buyer.setIsAuth(true);
+            setIsAuth(buyer.isAuth)
+            let basket = buyer.basket;
+            var buyerIdBuyer = buyer.user.id
+            setTimeout(() => {
+
+                basket.forEach(element => pushBasket(parseInt(buyerIdBuyer),element.id_product,element.products_count,element.price))
+                getBasket(buyerIdBuyer).then(data => {
+                    var newData = data;
+                    var id_product
+                    for(let i=0; i<newData.length; i++){
+                        id_product = newData[i].productIdProduct
+                        delete newData[i].productIdProduct
+                        newData[i].id_product = id_product
+                    }
+                    buyer.setBasket(newData)
+                    localStorage.setItem('cart',JSON.stringify(newData))
+                })
+
+            },1000)
+        } catch (e){
+            alert(e.response.data.message)
+        }
+    }
+    const logOut = async () => {
+        setFlag(flag)
+        localStorage.removeItem('token')
+        localStorage.removeItem('cart')
+        buyer.setBasketCount(0)
+        buyer.setBasket({})
+        buyer.setUser({})
+        buyer.setIsAuth(false);
+        setIsAuth(false);
+
+    }
+
     return(
         <div className="dropdown-profile-cot">
             <div className="dropdown-profile-container">
-                <input type="text" id="login" className="profile-input" placeholder="E-mail"/>
-                <input type="password" id="login" className="profile-input" placeholder="Пароль"/>
-                <div className="profile-container-back-button">
+                { isAuth === false ?
+                    <div>
+                    <input value={email} onChange={e => setEmail(e.target.value)} type="text" id="login" className="profile-input" placeholder="E-mail"/>
+                    <input value={password} onChange={e => setPassword(e.target.value)} type="password" id="login" className="profile-input" placeholder="Пароль"/>
+                        {flag === false ?
+                    <div className="profile-container-back-button" onClick={logIn}>
+                        <div className="BasketVoidDrop-back-text">Войти</div>
+                        <img id="BasketDrop-Arrow-back" src={Arrow}></img>
+                    </div> :
+                            <div className="profile-container-back-button" onClick={sigIn}>
+                                <div className="BasketVoidDrop-back-text">Регистрация</div>
+                                <img id="BasketDrop-Arrow-back" src={Arrow}></img>
+                            </div>    }
+                        {flag === false ? <div onClick={chageFlag} className="RegisterButton">Нет аккаунта? Зарегистрироваться!</div> : <div className="RegisterButton" onClick={chageFlag}>Есть аккаунт? Войти!</div> }</div> :
+                    <div className="profile-data-con">
+                        <div className="Avatar"><img className="AvatarImg" src={MonoBear}/></div>
+                        <div className="profile-data">
+                            <div className="email">{buyer.user.email}</div>
+                            <div className="profile-settings">Настройки профиля</div>
+                        </div>
+                        <ExitToAppIcon onClick={logOut} className="exit"/>
+                    </div>
 
-                    <div className="BasketVoidDrop-back-text">Войти</div>
-                    <img id="BasketDrop-Arrow-back" src={Arrow}></img>
-                </div>
-                <div className="RegisterButton">Нет аккаунта? Зарегистрироваться!</div>
+                }
             </div>
 
         </div>
