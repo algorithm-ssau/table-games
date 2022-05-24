@@ -1,6 +1,8 @@
 const {Products} = require('../models/models')
 const ApiError = require('../error/ApiError')
 const sequelize = require("../db");
+const Sequelize = require('sequelize');
+const Op = Sequelize.Op;
 const {QueryTypes} = require("sequelize");
 
 class GameController {
@@ -53,8 +55,6 @@ class GameController {
 
 
     }
-
-
     async getAll(req, res) {
 
         let {categoryIdCategories, limit, page} = req.query
@@ -66,7 +66,7 @@ class GameController {
             game = await Products.findAndCountAll({limit,offset})
         }
         if(categoryIdCategories){
-            game = await Products.findAndCountAll({where: {categoryIdCategories}},limit,offset)
+            game = await Products.findAndCountAll({where: {categoryIdCategories},limit,offset})
         }
         return res.json(game)
     }
@@ -80,7 +80,44 @@ class GameController {
         )
         return res.json(game)
     }
+    async getAllGames(req, res){
+        let game;
+        game = await Products.findAndCountAll();
+        return res.json(game);
+    }
+    async getPopularGames(req,res){
+        const popular = true;
+        let {limit,page} = req.query
+        page = page || 1
+        limit = limit || 8
+        let offset = page * limit - limit
+        let game;
+        game = await Products.findAndCountAll({where: {popular}, limit, offset})
+        return res.json(game)
+
+    }
+    async getNewsGames(req,res){
+        let game;
+        let {limit,page} = req.query
+        page = page || 1
+        limit = limit || 4
+        let offset = page * limit - limit
+        game = await Products.findAndCountAll({order: [['createdAt', 'DESC']], limit, offset})
+
+        return res.json(game)
+
+    }
+    async searchGame(req, res){
+
+        let {search, limit} = req.query
+        const game = await Products.findAndCountAll({where:{game_name:{[Op.iRegexp]: search },},limit});
+        return res.json(game)
+
+
+    }
 
 }
+
+
 
 module.exports = new GameController()
