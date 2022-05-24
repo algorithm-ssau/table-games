@@ -134,7 +134,7 @@ $$ | \$$ | $$$$$$  |      \$$$$$$  |$$ |  $$ |$$ |  $$ |$$ | \$$ |\$$$$$$  |$$$$
                                onEntering={() => setOpen(open)}
                                onExited={() => setOpen(open)}
                 >{props.children}</CSSTransition>
-                <div><input onChange={e => setValue(e.target.value)}  autoComplete="off" type="search" id="site-search" name="q" placeholder="Поиск..."></input></div>
+                <div><input onChange={e => setValue(e.target.value)} type="search" id="site-search" placeholder="Поиск..."></input></div>
 
 
             </div>
@@ -375,6 +375,7 @@ const DropdownBasket = observer(() => {
         basket = buyer.basket
         let total = 0
         basket.forEach(element => total = element.price * element.products_count + total)
+
         setPrice(total)
     }, [buyer.basketCount2])
 
@@ -538,7 +539,7 @@ function NavProf(props){
         </div>
     );
 };
-function DropdownProfile(){
+const DropdownProfile = observer(() => {
 
 
 
@@ -573,16 +574,26 @@ function DropdownProfile(){
                 setTimeout(() => {
                     getBasket(buyerIdBuyer).then(data => {
                         var newData = data;
-                        var id_product
-                        for(let i=0; i<newData.length; i++){
-                            id_product = newData[i].productIdProduct
-                            delete newData[i].productIdProduct
-                            newData[i].id_product = id_product
+
+                        if(newData.length===0){
+                            console.log(111)
                         }
-                        buyer.setBasket(newData)
-                        localStorage.setItem('cart',JSON.stringify(newData))
+                        else{
+                            console.log(222)
+                            var id_product
+                            for(let i=0; i<newData.length; i++){
+                                id_product = newData[i].productIdProduct
+                                delete newData[i].productIdProduct
+                                newData[i].id_product = id_product
+                            }
+                            localStorage.setItem('cart',JSON.stringify(newData))
+                            buyer.setBasket(newData)
+                            buyer.setBasketCount(newData.length)
+                            buyer.setBasketCount2(newData.length)
+                        }
+
                     })
-                },300)
+                },100)
 
 
             },1000)
@@ -628,7 +639,7 @@ function DropdownProfile(){
         localStorage.removeItem('token')
         localStorage.removeItem('cart')
         buyer.setBasketCount(0)
-        buyer.setBasket({})
+        buyer.setBasket([])
         buyer.setUser({})
         buyer.setIsAuth(false);
         setIsAuth(false);
@@ -640,8 +651,8 @@ function DropdownProfile(){
             <div className="dropdown-profile-container">
                 { isAuth === false ?
                     <div>
-                    <input value={email} onChange={e => setEmail(e.target.value)} type="text" id="login" className="profile-input" placeholder="E-mail"/>
-                    <input value={password} onChange={e => setPassword(e.target.value)} type="password" id="login" className="profile-input" placeholder="Пароль"/>
+                    <input value={email} onChange={e => setEmail(e.target.value)} autoComplete="email" type="email" id="email" className="profile-input" placeholder="E-mail"/>
+                    <input value={password} onChange={e => setPassword(e.target.value)} autoComplete="password" type="password" id="password" className="profile-input" placeholder="Пароль"/>
                         {flag === false ?
                     <div className="profile-container-back-button" onClick={logIn}>
                         <div className="BasketVoidDrop-back-text">Войти</div>
@@ -667,7 +678,7 @@ function DropdownProfile(){
         </div>
 
     );
-}
+})
 
 
 

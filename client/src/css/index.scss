@@ -47,13 +47,13 @@ body{
     }
 
     .Banner-Name {
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
         font-size: 65px;
       }
-      @include media('<LGdesktop','>=desktop'){
+      @include media('<=LGdesktop','>desktop'){
         font-size: 46px;
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         font-size: 35px;
       }
 
@@ -68,13 +68,13 @@ body{
 
     }
     .Banner-Sub-Name{
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
         font-size: 26px;
       }
-      @include media('<LGdesktop','>=desktop'){
+      @include media('<=LGdesktop','>desktop'){
         font-size: 20px;
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         font-size: 16px;
       }
       text-align: left;
@@ -86,13 +86,13 @@ body{
       cursor: default;
     }
     .Banner-text {
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
         font-size: 16px;
       }
-      @include media('<LGdesktop','>=desktop'){
+      @include media('<=LGdesktop','>desktop'){
         font-size: 12px;
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         font-size: 10px;
       }
       text-align: left;
@@ -109,13 +109,13 @@ body{
 
 
     .Banner-Button{
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
         font-size: 25px;
       }
-      @include media('<LGdesktop','>=desktop'){
+      @include media('<=LGdesktop','>desktop'){
         font-size: 20px;
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         font-size: 16px;
       }
       background: transparent linear-gradient(122deg, rgba(165,220,215,0.60) 0%, rgba(15,66,120,0.60) 150%) 0% 0% no-repeat padding-box;
@@ -143,17 +143,17 @@ body{
     }
 
     .Banner-Blob{
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
         transform: scale(0.85);
         top:4vh;
         left:2vw;
       }
-      @include media('<LGdesktop','>=desktop'){
+      @include media('<=LGdesktop','>desktop'){
         transform: scale(0.5);
-        top:1vh;
-        left:1vw;
+        top:5.2vh;
+        left:1.2vw;
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         transform: scale(0.35);
         top:3vh;
         left:0.5vw;
@@ -172,17 +172,17 @@ body{
     }
 
     .Banner-Blob2{
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
         transform: scale(1);
         top:50vh;
         left:22vw;
       }
-      @include media('<LGdesktop','>=desktop'){
-        transform: scale(0.5);
-        top:50vh;
-        left:20vw;
+      @include media('<=LGdesktop','>desktop'){
+        transform: scale(0.7);
+        top:48vh;
+        left:23vw;
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         transform: scale(0.5);
         top:47vh;
         left:22vw;
@@ -213,7 +213,7 @@ body{
     align-content: center;
     padding-top: 13vh;
 
-    
+
     .Container-Headlines{
       display: block;
       text-align: center;
@@ -222,13 +222,13 @@ body{
       margin-top: 5%;
     }
     .Container-Headlines-Name{
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
         font-size: 25px;
       }
-      @include media('<LGdesktop','>=desktop'){
+      @include media('<=LGdesktop','>desktop'){
         font-size: 20px;
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         font-size: 16px;
       }
       display: block;
@@ -242,7 +242,7 @@ body{
       cursor: default;
     }
     .Container-UnderText{
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         transform: scale(0.8);
       }
 
@@ -269,14 +269,14 @@ body{
     }
     .Container-Blob3{
 
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
 
       }
-      @include media('<LGdesktop','>=desktop'){
+      @include media('<=LGdesktop','>desktop'){
         transform: scale(0.85);
 
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         transform: scale(0.75);
       }
 
@@ -293,13 +293,13 @@ body{
     }
 
     .Container-Blob4{
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
 
       }
-      @include media('<LGdesktop','>=desktop'){
+      @include media('<=LGdesktop','>desktop'){
         transform: scale(0.8);
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         transform: scale(0.75);
       }
       position: relative;
@@ -317,14 +317,14 @@ body{
     }
 
     .Container-Blob5{
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
         transform: scale(0.85);
       }
-      @include media('<LGdesktop','>=desktop'){
+      @include media('<=LGdesktop','>desktop'){
         transform: scale(0.8);
 
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         transform: scale(0.6);
       }
 
@@ -375,16 +375,16 @@ body{
 
 
       .left-arrow-container{
-        @include media(">=LGdesktop", ">desktop"){
+        @include media(">LGdesktop", ">desktop"){
           transform: scale(-1);
           left: 70px;
 
         }
-        @include media('<LGdesktop','>=desktop'){
+        @include media('<=LGdesktop','>desktop'){
           transform: scale(-0.8);
           left: 50px;
         }
-        @include media('<desktop', '>=tablet'){
+        @include media('<=desktop', '>=tablet'){
           transform: scale(-0.75);
           left: 40px;
         }
@@ -397,16 +397,16 @@ body{
       }
       .right-arrow-container{
 
-        @include media(">=LGdesktop", ">desktop"){
+        @include media(">LGdesktop", ">desktop"){
           transform: scale(1);
           right: 70px;
 
         }
-        @include media('<LGdesktop','>=desktop'){
+        @include media('<=LGdesktop','>desktop'){
           transform: scale(0.8);
           right: 50px;
         }
-        @include media('<desktop', '>=tablet'){
+        @include media('<=desktop', '>=tablet'){
           transform: scale(0.75);
           right: 40px;
         }
@@ -434,6 +434,17 @@ body{
           img{
             mix-blend-mode: multiply;
           }
+
+          @include media(">LGdesktop", ">desktop"){
+
+          }
+          @include media('<=LGdesktop','>desktop'){
+
+          }
+          @include media('<=desktop', '>=tablet'){
+            height: 16vw;
+            width: 14vw;
+          }
           z-index: 50;
           transition: all 0.4s ease-in-out;
           position: relative;
@@ -459,13 +470,13 @@ body{
 
           .list-container-img {
 
-            @include media(">=LGdesktop", ">desktop"){
+            @include media(">LGdesktop", ">desktop"){
               margin-top: -8vh;
             }
-            @include media('<LGdesktop','>=desktop'){
+            @include media('<=LGdesktop','>desktop'){
               margin-top: -8vh;
             }
-            @include media('<desktop', '>=tablet'){
+            @include media('<=desktop', '>=tablet'){
               margin-top: -6.5vh;
             }
             display: block;
@@ -484,14 +495,14 @@ body{
 
 
           .list-container-name {
-            @include media(">=LGdesktop", ">desktop"){
+            @include media(">LGdesktop", ">desktop"){
               font-size: 14px;
             }
-            @include media('<LGdesktop','>=desktop'){
+            @include media('<=LGdesktop','>desktop'){
               font-size: 12px;
             }
-            @include media('<desktop', '>=tablet'){
-              font-size: 10px;
+            @include media('<=desktop', '>=tablet'){
+              font: normal normal 600 10px/12px Montserrat;
             }
             left: 50%;
             transform: translateX(-50%);
@@ -511,14 +522,14 @@ body{
           }
 
           .list-container-sub-name {
-            @include media(">=LGdesktop", ">desktop"){
+            @include media(">LGdesktop", ">desktop"){
               font-size: 12px;
             }
-            @include media('<LGdesktop','>=desktop'){
+            @include media('<=LGdesktop','>desktop'){
               font-size: 10px;
             }
-            @include media('<desktop', '>=tablet'){
-              font-size: 10px;
+            @include media('<=desktop', '>=tablet'){
+              font-size: 8px;
             }
             top: 55%;
             left: 50%;
@@ -536,15 +547,15 @@ body{
           }
 
           .list-container-price {
-            @include media(">=LGdesktop", ">desktop"){
+            @include media(">LGdesktop", ">desktop"){
               font-size: 16px;
 
             }
-            @include media('<LGdesktop','>=desktop'){
+            @include media('<=LGdesktop','>desktop'){
               font-size: 12px;
 
             }
-            @include media('<desktop', '>=tablet'){
+            @include media('<=desktop', '>=tablet'){
               font-size: 10px;
 
             }
@@ -571,6 +582,17 @@ body{
           transition: all 0.4s ease-in-out;
           position: relative;
           display: inline-grid;
+          @include media(">LGdesktop", ">desktop"){
+
+          }
+          @include media('<=LGdesktop','>desktop'){
+
+
+          }
+          @include media('<=desktop', '>=tablet'){
+            height: 16vw;
+            width: 14vw;
+          }
 
           background: #a8dadc 0% 0% no-repeat padding-box;
           box-shadow: inset 0px 3px 20px #FFFFFF4D, 0px 3px 30px #00000010;
@@ -586,16 +608,16 @@ body{
 
 
           .list-container-why-we-img{
-            @include media(">=LGdesktop", ">desktop"){
+            @include media(">LGdesktop", ">desktop"){
               margin-top: 3vh;
               transform: scale(0.8);
             }
-            @include media('<LGdesktop','>=desktop'){
+            @include media('<=LGdesktop','>desktop'){
               margin-top: 2.5vh;
               transform: scale(0.72);
 
             }
-            @include media('<desktop', '>=tablet'){
+            @include media('<=desktop', '>=tablet'){
               margin-top: 2vh;
               transform: scale(0.7);
             }
@@ -611,13 +633,13 @@ body{
           }
 
           .list-container-why-we-name{
-            @include media(">=LGdesktop", ">desktop"){
+            @include media(">LGdesktop", ">desktop"){
               font-size: 18px;
             }
-            @include media('<LGdesktop','>=desktop'){
+            @include media('<=LGdesktop','>desktop'){
               font-size: 14px;
             }
-            @include media('<desktop', '>=tablet'){
+            @include media('<=desktop', '>=tablet'){
               font-size: 10px;
             }
 
@@ -636,14 +658,14 @@ body{
           }
 
           .list-container-why-we-sub-name{
-            @include media(">=LGdesktop", ">desktop"){
+            @include media(">LGdesktop", ">desktop"){
               font-size: 14px;
               margin-top: 0%;
             }
-            @include media('<LGdesktop','>=desktop'){
+            @include media('<=LGdesktop','>desktop'){
               font-size: 10px;
             }
-            @include media('<desktop', '>=tablet'){
+            @include media('<=desktop', '>=tablet'){
               font-size: 8px;
 
             }

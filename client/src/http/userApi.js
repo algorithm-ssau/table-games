@@ -42,10 +42,11 @@ export const getBasket = async (buyerIdBuyer) => {
     return data
 }
 export const delBasket = async (buyerIdBuyer, productIdProduct) => {
-    const {data} = await $host.delete('api/user/getBasket', {params: {buyerIdBuyer, productIdProduct}})
+    const {data} = await $host.delete('api/user/delBasket', {params: {buyerIdBuyer, productIdProduct}})
     return data
 }
-export const updBasket = async (buyerIdBuyer, productIdProduct,products_count) => {
-    const {data} = await $host.put('api/user/updBasket', {params: {buyerIdBuyer, productIdProduct, products_count}})
+export const updBasket = async (buyerIdBuyer, productIdProduct, products_count) => {
+
+    const {data} = await $host.put('api/user/updBasket', {buyerIdBuyer, productIdProduct, products_count})
     return data
 }

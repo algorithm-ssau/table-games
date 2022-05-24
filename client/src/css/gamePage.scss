@@ -22,16 +22,16 @@
 
 
 .left-arrow-container{
-  @include media(">=LGdesktop", ">desktop"){
+  @include media(">LGdesktop", ">desktop"){
     transform: scale(-1);
     left: 20px;
 
   }
-  @include media('<LGdesktop','>=desktop'){
+  @include media('<=LGdesktop','>desktop'){
     transform: scale(-0.8);
     left: 20px;
   }
-  @include media('<desktop', '>=tablet'){
+  @include media('<=desktop', '>=tablet'){
     transform: scale(-0.75);
     left: 20px;
   }
@@ -44,16 +44,16 @@
 }
 .right-arrow-container{
 
-  @include media(">=LGdesktop", ">desktop"){
+  @include media(">LGdesktop", ">desktop"){
     transform: scale(1);
     right: 20px;
 
   }
-  @include media('<LGdesktop','>=desktop'){
+  @include media('<=LGdesktop','>desktop'){
     transform: scale(0.8);
     right: 20px;
   }
-  @include media('<desktop', '>=tablet'){
+  @include media('<=desktop', '>=tablet'){
     transform: scale(0.75);
     right: 20px;
   }
@@ -153,6 +153,16 @@ body{
 
 
           .game-name {
+            @include media(">LGdesktop", ">desktop"){
+              font-size: 24px;
+            }
+            @include media('<=LGdesktop','>desktop'){
+              font-size: 22px;
+            }
+            @include media('<=desktop', '>=tablet'){
+              font-size: 16px;
+              margin-bottom: 8px;
+            }
 
             text-align: left;
             font: normal normal bold 26px/0px Montserrat;
@@ -162,6 +172,15 @@ body{
             margin-bottom: 12px;
           }
           .game-little-description {
+            @include media(">LGdesktop", ">desktop"){
+              font-size: 14px;
+            }
+            @include media('<=LGdesktop','>desktop'){
+              font-size: 12px;
+            }
+            @include media('<=desktop', '>=tablet'){
+              font-size: 10px;
+            }
             text-align: left;
             font: normal normal medium 14px/10px Montserrat;
             letter-spacing: 0px;
@@ -210,6 +229,9 @@ body{
         }
 
         .game-params-icon{
+          @include media('<=desktop', '>=tablet'){
+            transform: scale(0.75);
+          }
 
           display: inline-block;
           margin-right: 3%;
@@ -217,6 +239,15 @@ body{
 
         }
         .game-age-rating {
+          @include media(">LGdesktop", ">desktop"){
+            font-size: 28px;
+          }
+          @include media('<=LGdesktop','>desktop'){
+            font-size: 26px;
+          }
+          @include media('<=desktop', '>=tablet'){
+            font-size: 18px;
+          }
           display: inline-block;
           text-align: left;
           font: normal normal 600 28px/10px Montserrat;
@@ -228,6 +259,15 @@ body{
         }
 
         .game-player-number {
+          @include media(">LGdesktop", ">desktop"){
+            font-size: 14px;
+          }
+          @include media('<=LGdesktop','>desktop'){
+            font-size: 12px;
+          }
+          @include media('<=desktop', '>=tablet'){
+            font-size: 7px;
+          }
 
           display: inline-block;
           text-align: left;
@@ -241,6 +281,15 @@ body{
 
         }
         .game-time{
+          @include media(">LGdesktop", ">desktop"){
+            font-size: 14px;
+          }
+          @include media('<=LGdesktop','>desktop'){
+            font-size: 12px;
+          }
+          @include media('<=desktop', '>=tablet'){
+            font-size: 7px;
+          }
 
 
           display: inline-block;
@@ -278,6 +327,15 @@ body{
           width: 100%;
         }
         .game-des {
+          @include media(">LGdesktop", ">desktop"){
+            font-size: 24px;
+          }
+          @include media('<=LGdesktop','>desktop'){
+            font-size: 22px;
+          }
+          @include media('<=desktop', '>=tablet'){
+            font-size: 18px;
+          }
           text-align: left;
           font: normal normal 600 24px/10px Montserrat;
           letter-spacing: 0px;
@@ -288,8 +346,17 @@ body{
         }
 
         .game-description {
+          @include media(">LGdesktop", ">desktop"){
+            font-size: 14px;
+          }
+          @include media('<=LGdesktop','>desktop'){
+            font-size: 12px;
+          }
+          @include media('<=desktop', '>=tablet'){
+            font-size: 10px;
+          }
           text-align: left;
-          font: normal normal normal 14px/20px Montserrat !important;
+          font: normal normal normal 14px/20px Montserrat ;
           letter-spacing: 0px;
           color: #000000;
           opacity: 1;
@@ -316,6 +383,15 @@ body{
 
 
         .game-id {
+          @include media(">LGdesktop", ">desktop"){
+            font-size: 8px;
+          }
+          @include media('<=LGdesktop','>desktop'){
+            font-size: 8px;
+          }
+          @include media('<=desktop', '>=tablet'){
+            font-size: 8px;
+          }
           text-align: left;
           font: normal normal normal 8px/10px Montserrat;
           letter-spacing: 0px;
@@ -332,6 +408,15 @@ body{
           margin-left: 15%;
           margin-bottom: 15%;
           .game-price {
+            @include media(">LGdesktop", ">desktop"){
+              font-size: 32px;
+            }
+            @include media('<=LGdesktop','>desktop'){
+              font-size: 30px;
+            }
+            @include media('<=desktop', '>=tablet'){
+              font-size: 25px;
+            }
             text-align: left;
             font: normal normal 600 32px/10px Montserrat;
             letter-spacing: 0px;
@@ -342,6 +427,15 @@ body{
           }
 
           .game-rub {
+            @include media(">LGdesktop", ">desktop"){
+              font-size: 16px;
+            }
+            @include media('<=LGdesktop','>desktop'){
+              font-size: 14px;
+            }
+            @include media('<=desktop', '>=tablet'){
+              font-size: 10px;
+            }
             text-align: left;
             font: normal normal 600 16px/10px Montserrat;
             letter-spacing: 0px;
@@ -358,14 +452,14 @@ body{
           display: inline-block;
         }
         .game-dropbus-button {
-          @include media(">=LGdesktop", ">desktop") {
-            font-size: 25px;
-          }
-          @include media('<LGdesktop', '>=desktop') {
+          @include media(">LGdesktop", ">desktop") {
             font-size: 20px;
           }
-          @include media('<desktop', '>=tablet') {
-            font-size: 16px;
+          @include media('<LGdesktop', '>=desktop') {
+            font-size: 18px;
+          }
+          @include media('<=desktop', '>=tablet') {
+            font-size: 14px;
           }
 
           background: transparent linear-gradient(122deg, rgba(165, 220, 215, 0.60) 0%, rgba(15, 66, 120, 0.6) 150%) 0% 0% no-repeat padding-box;
@@ -398,6 +492,15 @@ body{
         }
 
         .game-delivery {
+          @include media(">LGdesktop", ">desktop"){
+            font-size: 10px;
+          }
+          @include media('<=LGdesktop','>desktop'){
+            font-size: 8px;
+          }
+          @include media('<=desktop', '>=tablet'){
+            font-size: 5px;
+          }
           margin-left: 15%;
           margin-top: 10%;
           text-align: left;
@@ -431,6 +534,15 @@ body{
         margin-top: 5vh;
 
         .game-rule{
+          @include media(">LGdesktop", ">desktop"){
+            font-size: 15px;
+          }
+          @include media('<=LGdesktop','>desktop'){
+            font-size: 13px;
+          }
+          @include media('<=desktop', '>=tablet'){
+            font-size: 11px;
+          }
           display: flex;
           margin-right: auto;
           margin-left: auto;
