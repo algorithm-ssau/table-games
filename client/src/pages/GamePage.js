@@ -58,10 +58,12 @@ const GamePage = observer(() => {
     },[id])
 
     function Cart(){
+
         const basket = buyer.basket
         var index = basket.findIndex(obj => obj.id_product===game.id_product)
         var auth = buyer.isAuth
         if(index < 0){
+
             if(buyer.basketCount === 0){
 
                 const updateCart = [{id_product: game.id_product, products_count: 1, price: game.price}]
@@ -74,6 +76,7 @@ const GamePage = observer(() => {
                 buyer.setBasketCount(buyer.basketCount + 1)
             }
             else {
+
                 const oldCart = basket
                 const updateCart = [...oldCart, {id_product: game.id_product, products_count: 1, price: game.price}]
 
@@ -86,13 +89,13 @@ const GamePage = observer(() => {
             }
         }
         else{
+
             const updateCart = basket;
             const countCart = basket
             const newCountCart = countCart.slice(index, index + 2)
             const count = newCountCart[0].products_count
             const newCount = count + 1
             if(buyer.isAuth===true){
-                console.log(newCount)
                 updBasket(parseInt(buyer.user.id),game.id_product,newCount).then(data => {})
             }
             updateCart.splice(index,1, {id_product: game.id_product,  products_count: newCount, price: game.price});

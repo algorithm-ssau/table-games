@@ -21,6 +21,7 @@ import {useContext, useEffect} from "react";
 import {Context} from "../index";
 import {fetchCategory, fetchNews, fetchPopular} from "../http/gameAPI";
 import {useNavigate} from "react-router-dom";
+import {updBasket} from "../http/userApi";
 /*
 $$\      $$\           $$\
 $$$\    $$$ |          \__|
@@ -176,6 +177,9 @@ const Main = observer(() =>  {
             const newCountCart = countCart.slice(index, index + 2)
             const count = newCountCart[0].products_count
             const newCount = count + 1
+            if(buyer.isAuth===true){
+                updBasket(parseInt(buyer.user.id),454,newCount).then(data => {})
+            }
             updateCart.splice(index,1, {id_product: 454,  products_count: newCount, price: 6990});
             buyer.setBasket(updateCart)
             buyer.setBasketCount2(buyer.basketCount2 + 1)
