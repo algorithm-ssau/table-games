@@ -28,7 +28,8 @@ const Products = sequelize.define('products', {
 })
 
 const Basket = sequelize.define('basket', {
-    products_count: {type: DataTypes.INTEGER}
+    products_count: {type: DataTypes.INTEGER},
+    price: {type: DataTypes.INTEGER}
 })
 
 const Buyer = sequelize.define('buyer', {
