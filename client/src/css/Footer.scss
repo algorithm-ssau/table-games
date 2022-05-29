@@ -11,7 +11,7 @@ body{
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     .Footer-Cont{
-      @include media(">=LGdesktop", ">desktop"){
+      @include media(">LGdesktop", ">desktop"){
         margin-top: 4%;
       }
       @include media('<LGdesktop','>=desktop'){
@@ -39,7 +39,7 @@ body{
   }
 
   .List-Name{
-    @include media(">=LGdesktop", ">desktop"){
+    @include media(">LGdesktop", ">desktop"){
       font-size: 16px;
     }
     @include media('<LGdesktop','>=desktop'){
@@ -58,7 +58,7 @@ body{
   }
 
   .List-Sub-Item{
-    @include media(">=LGdesktop", ">desktop"){
+    @include media(">LGdesktop", ">desktop"){
       font-size: 14px;
     }
     @include media('<LGdesktop','>=desktop'){
@@ -76,7 +76,7 @@ body{
   }
 
   .Copyright{
-    @include media(">=LGdesktop", ">desktop"){
+    @include media(">LGdesktop", ">desktop"){
 
     }
     @include media('<LGdesktop','>=desktop'){
@@ -99,7 +99,7 @@ body{
   }
 
   .Copy-Links{
-    @include media(">=LGdesktop", ">desktop"){
+    @include media(">LGdesktop", ">desktop"){
       font-size: 12px;
     }
     @include media('<LGdesktop','>=desktop'){
@@ -124,7 +124,7 @@ body{
   display: inline-block;
 
 
-  @include media(">=LGdesktop", ">desktop"){
+  @include media(">LGdesktop", ">desktop"){
     transform: scale(0.8);
     margin-left: -3%;
   }
