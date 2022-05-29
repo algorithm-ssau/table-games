@@ -17,7 +17,7 @@ body{
       @include media('<=LGdesktop','>desktop'){
         margin-top: 2%;
       }
-      @include media('<desktop', '>=tablet'){
+      @include media('<=desktop', '>=tablet'){
         margin-top: 1%;
       }
         position: absolute;
@@ -45,7 +45,7 @@ body{
     @include media('<=LGdesktop','>desktop'){
       font-size: 14px;
     }
-    @include media('<desktop', '>=tablet'){
+    @include media('<=desktop', '>=tablet'){
       font-size: 12px;
     }
 
@@ -64,7 +64,7 @@ body{
     @include media('<=LGdesktop','>desktop'){
       font-size: 12px;
     }
-    @include media('<desktop', '>=tablet'){
+    @include media('<=desktop', '>=tablet'){
       font-size: 10px;
     }
     text-align: left;
@@ -83,7 +83,7 @@ body{
       width: 78%;
       font-size: 10px;
     }
-    @include media('<desktop', '>=tablet'){
+    @include media('<=desktop', '>=tablet'){
       width: 82%;
       font-size: 8px;
     }
@@ -105,7 +105,7 @@ body{
     @include media('<=LGdesktop','>desktop'){
       font-size: 10px;
     }
-    @include media('<desktop', '>=tablet'){
+    @include media('<=desktop', '>=tablet'){
       font-size: 8px;
     }
     float: left;
@@ -132,7 +132,7 @@ body{
     transform: scale(0.6);
     margin-left: -9%;
   }
-  @include media('<desktop', '>=tablet'){
+  @include media('<=desktop', '>=tablet'){
     transform: scale(0.6);
     margin-left: -10%;
   }
