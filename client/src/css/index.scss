@@ -150,8 +150,8 @@ body{
       }
       @include media('<=LGdesktop','>desktop'){
         transform: scale(0.5);
-        top:5.2vh;
-        left:1.2vw;
+        top:5.5vh;
+        left:1.3vw;
       }
       @include media('<=desktop', '>=tablet'){
         transform: scale(0.35);
@@ -180,7 +180,7 @@ body{
       @include media('<=LGdesktop','>desktop'){
         transform: scale(0.7);
         top:48vh;
-        left:23vw;
+        left:21vw;
       }
       @include media('<=desktop', '>=tablet'){
         transform: scale(0.5);
