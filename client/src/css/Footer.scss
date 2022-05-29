@@ -14,7 +14,7 @@ body{
       @include media(">LGdesktop", ">desktop"){
         margin-top: 4%;
       }
-      @include media('<LGdesktop','>=desktop'){
+      @include media('<=LGdesktop','>desktop'){
         margin-top: 2%;
       }
       @include media('<desktop', '>=tablet'){
@@ -42,7 +42,7 @@ body{
     @include media(">LGdesktop", ">desktop"){
       font-size: 16px;
     }
-    @include media('<LGdesktop','>=desktop'){
+    @include media('<=LGdesktop','>desktop'){
       font-size: 14px;
     }
     @include media('<desktop', '>=tablet'){
@@ -61,7 +61,7 @@ body{
     @include media(">LGdesktop", ">desktop"){
       font-size: 14px;
     }
-    @include media('<LGdesktop','>=desktop'){
+    @include media('<=LGdesktop','>desktop'){
       font-size: 12px;
     }
     @include media('<desktop', '>=tablet'){
@@ -79,7 +79,7 @@ body{
     @include media(">LGdesktop", ">desktop"){
 
     }
-    @include media('<LGdesktop','>=desktop'){
+    @include media('<=LGdesktop','>desktop'){
       width: 78%;
       font-size: 10px;
     }
@@ -102,7 +102,7 @@ body{
     @include media(">LGdesktop", ">desktop"){
       font-size: 12px;
     }
-    @include media('<LGdesktop','>=desktop'){
+    @include media('<=LGdesktop','>desktop'){
       font-size: 10px;
     }
     @include media('<desktop', '>=tablet'){
@@ -128,7 +128,7 @@ body{
     transform: scale(0.8);
     margin-left: -3%;
   }
-  @include media('<LGdesktop','>=desktop'){
+  @include media('<=LGdesktop','>desktop'){
     transform: scale(0.6);
     margin-left: -9%;
   }
